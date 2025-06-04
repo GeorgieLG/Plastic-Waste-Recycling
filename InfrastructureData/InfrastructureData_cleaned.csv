@@ -248,7 +248,7 @@ X,Y,Name,Address,County,TELEPHONE,Email,Website,NAICS_Code,Infra_Type,Feedstock,
 -95.6225559653819,29.7674719941651,CipherWaste Polymers LP,"1130 Enclave Parkway, Houston, TX, 77077", ,(281) 946-8090,sales@cipherwaste.com,https://cipherwaste.com/,562920,Plastic Recycling Facility,Plastic,TX
 -83.6528450174503,41.9621619824144,"Clean Tech, Inc.","500 N. Dunham Street, Dundee, MI, 48131", ,(734) 529-2475, , ,562920,Plastic Recycling Facility,Plastic,MI
 -78.7801489880216,34.9814040190454,"Clear Path Recycling, LLC","3500 Cedar Creek Road, Fayetteville, NC, 28312", ,(877) 387-3738,rpetsales@clearpathrecycling.com,http://www.clearpathrecycling.com/,562920,Plastic Recycling Facility,Plastic,NC
--82.362086997536,27.9619970163154,"Commercial Plastics Recycling, Inc.","1920 Tampa East Blvd, Tampa, Fl, 33619", ,(813) 248-4212, ,http://www.cprinc.net/,562920,Plastic Recycling Facility,Plastic,Fl
+-82.362086997536,27.9619970163154,"Commercial Plastics Recycling, Inc.","1920 Tampa East Blvd, Tampa, Fl, 33619", ,(813) 248-4212, ,http://www.cprinc.net/,562920,Plastic Recycling Facility,Plastic,FL
 -76.0156079735679,40.9720010128674,"Concord Plastics, Inc","225 Jaycee Drive, West Hazleton, PA, 18202", ,(570) 453-0803,lsampson@concordplasticsinc.com,http://www.concordplasticsinc.com/,562920,Plastic Recycling Facility,Plastic,PA
 -71.4275621303485,42.2739672298887,"Conigliaro Industries, Inc.","701 Waverly Street, Framingham, MA, 01702", ,(508) 872-9668,sales@conigliaro.com,https://conigliaroindustries.com/,562920,Plastic Recycling Facility,Plastic,MA
 -79.3970050101154,36.0791820036616,Continental Recycling LLC,"300 East Parker St, Graham, NC, 27253", ,(919) 749-9000,info@continentalrecyclingusa.com,http://continentalrecyclingusa.com/,562920,Plastic Recycling Facility,Plastic,NC
@@ -316,7 +316,7 @@ X,Y,Name,Address,County,TELEPHONE,Email,Website,NAICS_Code,Infra_Type,Feedstock,
 -83.7249049934208,42.8002929979937,"McDunnough, Inc.","340 North Fenway Drive, Fenton, MI, 48430", ,(734) 449-4008,info@mcdunnough.com,http://www.mcdunnough.com/,562920,Plastic Recycling Facility,Plastic,MI
 -88.0755118101338,41.6641799421362,Mega Polymers,"1343 Enterprise Drive, Romeoville, IL, 60446", ,(815) 230-0092,orders@megapolymers.com,http://www.megapolymers.com/,562920,Plastic Recycling Facility,Plastic,IL
 -84.556876022628,43.0167390094216,"Michigan Polymer Reclaim, Inc.","107 E. Walker Rd., St. Johns, MI, 48879", ,(989) 227-1125,recycle@visitmpr.com,http://www.visitmpr.com/,562920,Plastic Recycling Facility,Plastic,MI
--84.1807269696987,43.6096770193473,Midland Compounding & Consulting,"3802 James Savage Road, Midland, MI , 48642", ,(989) 495-9367,midcom@midlandcompounding.com,http://www.midlandcompounding.com/,562920,Plastic Recycling Facility,Plastic,MI�
+-84.1807269696987,43.6096770193473,Midland Compounding & Consulting,"3802 James Savage Road, Midland, MI , 48642", ,(989) 495-9367,midcom@midlandcompounding.com,http://www.midlandcompounding.com/,562920,Plastic Recycling Facility,Plastic,MI
 -83.9576789941441,35.9633130049164,MirPlastics LLC,"2734 Middlebrook Pike, Knoxville, TN, 37921", ,(865) 525-2872,rhonda@mirplastics.com,http://www.mirplastics.com/,562920,Plastic Recycling Facility,Plastic,TN
 -84.6198899972345,40.0916459924038,MJS Plastics Inc.,"1355 Sater Street, Greenville, OH , 45331", ,(937) 548-1000,info@mjsplastics.com,https://www.mjsplastics.com/,562920,Plastic Recycling Facility,Plastic,OH
 -85.3592937752533,34.453649158604,MOHAWK INDUSTRIES INC.,"106 John Bankson Drive, Summerville, GA, 30747", ,(706) 624-2253, , ,562920,Plastic Recycling Facility,Plastic,GA
@@ -692,7 +692,7 @@ X,Y,Name,Address,County,TELEPHONE,Email,Website,NAICS_Code,Infra_Type,Feedstock,
 -118.172040185966,33.907163363571,Paramount Resource Recycling,"7230 Petterson Ln, Paramount, CA, 907232022",Los Angeles,(562) 602-6505, ,www.paramountcity.com,562920,MRF, ,CA
 -89.3549313000148,43.0396747694538,Pellitteri Waste Systems LLC,"7035 Raywood Rd, Monona, WI, 53713", , , , ,562920,MRF, ,WI
 -119.304244983617,36.5314319899919,"Pena's Disposal, Inc.","12094 Avenue 408, Cutler, CA, 936152055",Tulare,(559) 528-3909, ,www.penasdisposal.com,562920,MRF, ,CA
--76.7224419660504,40.0391870131899,Penn Waste,"85 Brick Yard Road, Manchester, Changed street address from ""201 Railroad Avenue"" to ""201 Railroad Ave"", 17345", , , , ,562920,MRF, ,"Changed street address from ""201 Railroad Avenue"" to ""201 Railroad Ave"""
+-76.7224419660504,40.0391870131899,Penn Waste,"85 Brick Yard Road, Manchester, Changed street address from ""201 Railroad Avenue"" to ""201 Railroad Ave"",PA, 17345", , , , ,562920,MRF, ,PA
 -79.0042570228708,36.3916930073834,Person Industries,"741 Martin St, Roxboro, NC, 27573", , , , ,562920,MRF, ,NC
 -122.539115037089,45.4002069800162,Pioneer Recycling Services LLC,"16810 SE 120th Ave, Clackamas, OR, 970159005", , , , ,562920,MRF, ,OR
 -122.374727978546,47.0837670085411,Pioneer Recycling Services LLC,"4109 192nd St E, Tacoma, WA, 984462745", , , , ,562920,MRF, ,WA
@@ -1016,7 +1016,7 @@ X,Y,Name,Address,County,TELEPHONE,Email,Website,NAICS_Code,Infra_Type,Feedstock,
 -87.9345657942134,41.7371252181977,"American Secure Technologies Co.,","8340 S. Madison St, Suite 10, Burr Ridge, IL, United States", , , ,www.astr2.com,562920,Electronics Recycler,Electronics,IL
 -96.7000239699613,40.7633520154113,"American Union Ventures, INC. DBA: American Recycling","5001 South 16th St., Lincoln, NE, United States", , , ,www.americanrecyclingne.com,562920,Electronics Recycler,Electronics,NE
 -74.0134919965702,40.8141080014474,"AnythingIT, Inc.","2075 91st St, Unit B, North Bergen, NJ, 07047", ,(877) 766-3050,sales@anythingit.com,http://www.anythingit.com/,562920,Electronics Recycler,Electronics,NJ
--84.6296320318382,38.9829059871766,Apex Technology Solutions,"7960 Kentucky Drive, Suites 4 & 5, Florence, Ky, United States", , , ,www.apexitad.com,562920,Electronics Recycler,Electronics,Ky
+-84.6296320318382,38.9829059871766,Apex Technology Solutions,"7960 Kentucky Drive, Suites 4 & 5, Florence, Ky, United States", , , ,www.apexitad.com,562920,Electronics Recycler,Electronics,KY
 -84.4508600348843,33.8113150204586,Apto Solutions,"1910 MacArthur Blvd., Atlanta, GA, 30318", ,(855) 275-2786,info@AptoSolutions.com,http://www.aptosolutions.com/,562920,Electronics Recycler,Electronics,GA
 -122.182928995314,37.7161749860813,Apto Solutions,"1971 Davis Street, San Leandro, CA, 94577", ,(855) 275-2786,info@AptoSolutions.com,http://www.aptosolutions.com/,562920,Electronics Recycler,Electronics,CA
 -97.6790730085592,30.4733929878442,Apto Solutions,"3815-A Jarret Way #180, Austin, TX, 78728", ,(855) 275-2786,info@AptoSolutions.com,http://www.aptosolutions.com/,562920,Electronics Recycler,Electronics,TX
@@ -1206,7 +1206,7 @@ X,Y,Name,Address,County,TELEPHONE,Email,Website,NAICS_Code,Infra_Type,Feedstock,
 -86.3523455740728,39.6883273409979,Electronic Recyclers International (ERI),"2540 Airwest Blvd., Plainfield, IN, 46168", ,(800) 374-3473,ablum@electronicrecyclers.com,http://www.electronicrecyclers.com/,562920,Electronics Recycler,Electronics,IN
 -80.1157572632511,35.407949484457,Electronic Recyclers International (ERI),"293 NC 740 Hwy, Badin, NC, 28009", ,(800) 374-3473,ablum@electronicrecyclers.com,http://www.electronicrecyclers.com/,562920,Electronics Recycler,Electronics,NC
 -119.775171987608,36.6874360138028,Electronic Recyclers International (ERI),"3243 South East Avenue, Building 108, Fresno, CA, 93725", ,(800) 374-3473,ablum@electronicrecyclers.com,http://www.electronicrecyclers.com/,562920,Electronics Recycler,Electronics,CA
--104.825522547972,39.7666401275278,Electronic Recyclers International (ERI),"3250 Abilene Street Suite A, Aurora, Co, 80011", ,(800) 374-3473,ablum@electronicrecyclers.com,http://www.electronicrecyclers.com/,562920,Electronics Recycler,Electronics,Co
+-104.825522547972,39.7666401275278,Electronic Recyclers International (ERI),"3250 Abilene Street Suite A, Aurora, Co, 80011", ,(800) 374-3473,ablum@electronicrecyclers.com,http://www.electronicrecyclers.com/,562920,Electronics Recycler,Electronics,CO
 -122.229175978447,47.2199200034235,Electronic Recyclers International (ERI),"3901 150th Ave Court East, Suite 200, Sumner, WA, 98390", ,(800) 374-3473,ablum@electronicrecyclers.com,http://www.electronicrecyclers.com/,562920,Electronics Recycler,Electronics,WA
 -97.035943994781,32.9880200154092,Electronic Recyclers International (ERI),"500 Enterprise Drive, Suite 400, Flower Mound, TX, 75028", ,(800) 374-3473,ablum@electronicrecyclers.com,http://www.electronicrecyclers.com/,562920,Electronics Recycler,Electronics,TX
 -119.80876103966,36.8504300000382,Electronic Recyclers International (ERI),"7815 N. Palm Ave., Suite #140, Fresno, CA, 93725", ,(800) 374-3473,ablum@electronicrecyclers.com,http://www.electronicrecyclers.com/,562920,Electronics Recycler,Electronics,CA
@@ -1393,7 +1393,7 @@ X,Y,Name,Address,County,TELEPHONE,Email,Website,NAICS_Code,Infra_Type,Feedstock,
 -89.8863919777266,35.0096820038788,"Jabil Circuit, Inc.; Jabil Environmental Technologies","5238 Lamar Avenue, Memphis, TN, United States", , , ,jabil.com,562920,Electronics Recycler,Electronics,TN
 -96.9158820327911,32.9374649855018,Jalal Bros Imports & Wholesale Corporation DBA Wireless Way,"2104 Hutton Drive Ste. #116, Carrollton, TX, United States", , , ,www.wirelessway.net,562920,Electronics Recycler,Electronics,TX
 -121.923127966897,37.4771480017702,JFG Asset Management Inc DBA Evergreen IT Solutions,"47825 Warm Springs Boulevard, Fremont, CA, United States", , , ,www.evergreenitmanagement.com,562920,Electronics Recycler,Electronics,CA
--93.3908340117852,44.9878620193284,Jobs Foundation dba Tech Discounts,"825 Boone Ave N, Golden Valley, Minnesota, United States", , , ,https://techdiscounts.org/?gclid=CjwKCAjwuvmHBhAxEiwAWAYj-CflRF70j6QmEEJXaOWYYm7jp0o5Z-abTx_Q-nGD9tqTrZCPgbVn2BoCTToQAvD_BwE,562920,Electronics Recycler,Electronics,Minnesota
+-93.3908340117852,44.9878620193284,Jobs Foundation dba Tech Discounts,"825 Boone Ave N, Golden Valley, Minnesota, United States", , , ,https://techdiscounts.org/?gclid=CjwKCAjwuvmHBhAxEiwAWAYj-CflRF70j6QmEEJXaOWYYm7jp0o5Z-abTx_Q-nGD9tqTrZCPgbVn2BoCTToQAvD_BwE,562920,Electronics Recycler,Electronics,MI
 -93.1881249757428,44.9667840055036,Jobs Foundation dba Tech Dump,"860 Vandalia St, Saint Paul, MN, United States", , , ,www.techdump.org,562920,Electronics Recycler,Electronics,MN
 -73.9735100669663,40.6104798897218,Joy Goods,"1726 McDonald Avenue, Suite 2A, Brooklyn, NY, United States", , , , ,562920,Electronics Recycler,Electronics,NY
 -78.8940260274774,40.0117229949738,JVS Environmental,"1466 Cornerstone Road, Friedens, PA, 15541", ,(877) 735-3178,info@jvsenvironmental.net,http://www.jvsenvironmental.net/,562920,Electronics Recycler,Electronics,PA
@@ -1664,7 +1664,7 @@ Unit 4, Oak Lawn, IL, United States", , , ,www.om-electronics.com,562920,Electro
 -83.8872829935919,34.2151950133104,The Alchemist Tech & Electronics,"4042 Enterprise Way Suite 120, Flowery Branch, GA, United States", , , , ,562920,Electronics Recycler,Electronics,GA
 -74.2743889588278,40.5069070172063,"The Surplus Company, LLC","201 Second St, Perth Amboy, NJ, United States", , , ,thesurpluscompany.com,562920,Electronics Recycler,Electronics,NJ
 -105.072679978363,39.9736269935844,"The Wireless Alliance, LLC","1275 Rock Creek Cir., Lafayette, CO, United States", , , ,www.thewirelessalliance.com,562920,Electronics Recycler,Electronics,CO
--82.6936480136093,27.8780189798577,Tijep International Electronics LLC,"Suite 303 and 305, 4400 118th Ave. North, Clearwater, Florida, United States", , , ,www.yijep.com,562920,Electronics Recycler,Electronics,Florida
+-82.6936480136093,27.8780189798577,Tijep International Electronics LLC,"Suite 303 and 305, 4400 118th Ave. North, Clearwater, Florida, United States", , , ,www.yijep.com,562920,Electronics Recycler,Electronics,FL
 -81.4982469666276,41.1698689969116,Titan Deals LLC,"3420 Cavalier Trail , Suite E, Cuyahoga Falls, OH, United States", , , ,https://www.ebay.com/str/titandealz,562920,Electronics Recycler,Electronics,OH
 -79.9536010157101,40.3510290153097,"TMS International, LLC","516 Delwar Road, Pittsburgh, PA, United States", , , ,tmsinternational.com,562920,Electronics Recycler,Electronics,PA
 -117.680941996016,34.0013330169029,TNR GROUP INC,"13860 Benson Ave Suite, A, Chino, CA, United States", , , ,tnrgroupinc.com,562920,Electronics Recycler,Electronics,CA

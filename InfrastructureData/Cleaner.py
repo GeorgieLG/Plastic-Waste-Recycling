@@ -28,7 +28,9 @@ def getState(input_file, output_file):
                 addressList = address.split(',')
                 length = len(addressList)
                 state = addressList[length - 2]
-                row['State'] = state.strip()
+                state = state.strip() #Removes whitespace
+                state = state[0:2].upper() #Gets only first 2 characters to eliminate typos
+                row['State'] = state
                 writer.writerow(row)
 
 #removeDuplicateRows('InfrastructureData/InfrastructureData.csv', 'InfrastructureData/InfrastructureData_cleaned.csv')
