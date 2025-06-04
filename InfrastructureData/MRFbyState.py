@@ -13,7 +13,7 @@ def csvtodict(filename):
                 statecount[state] = 1
     return statecount
 
-data = csvtodict('InfrastructureData/InfrastructureData_cleaned.csv')
+data = csvtodict('InfrastructureData/MRFdata.csv')
 dataSortedbyValue = {k: v for k, v in sorted(data.items(), key=lambda x: x[1], reverse=True)}
 
 x = dataSortedbyValue.keys()  # Get the states from the dictionary
@@ -22,11 +22,11 @@ y = dataSortedbyValue.values()  # Get the counts for each state
 f = plt.figure()
 f.set_figwidth(15)
 
-plt.title('Number of Recyling Centers by State')
+plt.bar(x, y)
+plt.title('Number of MRFs by State')
 plt.xlabel('State')
 plt.ylabel('# of Sites')  # Replace 'Value' with the actual column name you want to plot
-plt.bar(x, y)
-plt.savefig('InfrastructureData/InfrastructureDatabystate.pdf')
+plt.savefig('InfrastructureData/MRFdatabystate.pdf')
 plt.show()
 
 print("State counts:", dataSortedbyValue)

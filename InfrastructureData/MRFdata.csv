@@ -1,0 +1,422 @@
+X,Y,Name,Address,County,TELEPHONE,Email,Website,NAICS_Code,Infra_Type,Feedstock,State
+-88.2099823425885,43.4660277626579,"A & W Iron & Metal, Inc.","7588 Otten Ln, Kewaskum, WI, 530409400", , , , ,562920,MRF, ,WI
+-87.9394389819071,42.9816560088572,A-1 Recycling-Div of The Peltz,"2020 W Morgan Ave, Milwaukee, WI, 532211533", , , , ,562920,MRF, ,WI
+-92.194212475882,34.7081598847677,Accura Paper Recycling Inc (Waste Management),"7900 Sloane Dr, Little Rock, AR, 722063893",Pulaski,(501) 490-0733, , ,562920,MRF, ,AR
+-73.9119363547824,40.7977148009453,Action Environmental Group,"920 E 132nd St, Bronx, NY, 104543629", , , , ,562920,MRF, ,NY
+-83.8994189835616,38.8930659829142,Adams Brown Recycling Station,"9262 Mount Orab Pike, Georgetown, OH, 451219311", , , , ,562920,MRF, ,OH
+-117.290927012121,34.4450500162529,Advance Disposal Co,"17105 Mesa St, Hesperia, CA, 923455155",San Bernardino,(760) 948-3122, , ,562920,MRF, ,CA
+-84.3252200001502,34.0446579847694,Advanced Disposal LLC,"300 Colonial Center Pkwy # 2, Roswell, GA, 300764899",Fulton,(678) 341-7144, , ,562920,MRF, ,GA
+-87.7426859586233,43.7243730126527,"Advanced Disposal Services Solid Waste Midwest, LLC","2905 Paine Ave, Sheboygan, WI, 530816428", , , , ,562920,MRF, ,WI
+-89.437893018796,43.1868460044204,"Advanced Disposal Services Solid Waste Midwest, LLC","300 Raemisch Rd, Waunakee, WI, 535979665", , , , ,562920,MRF, ,WI
+-89.5004309851213,44.4561989905575,"Advanced Disposal Services Solid Waste Midwest, LLC","600 Moore Rd, Plover, WI, 544673148", , , , ,562920,MRF, ,WI
+-73.4325491887119,41.3993921763725,Advanced Recycling Corporation,"307 White St, Danbury, CT, 06810",Fairfield,(203) 797-0378, , ,562920,MRF, ,CT
+-122.151497026045,37.709726997516,"Alameda County Industries, LLC","610 Aladdin Ave, San Leandro, CA, 945774302",Alameda,(510) 357-7282, ,www.alamedacountyindustries.com,562920,MRF, ,CA
+-74.0447237649795,40.7393769298088,All American Recycling Corp. of Clifton,"2 Hope St, Jersey City, NJ, 07307", , , , ,562920,MRF, ,NJ
+-80.1588390395784,26.2907290068878,"All County Waste Recycling, Inc.","1810 SW 42nd Way, Deerfield Beach, FL, 334429000",Broward, , , ,562920,MRF, ,FL
+-72.6562310348526,41.7399050070625,"All Waste, Inc.","143 Murphy Rd, Hartford, CT, 06114",Hartford, , , ,562920,MRF, ,CT
+-78.8977331756138,42.9659068318856,"Allied Waste Industries, LLC","2299 Kenmore Ave, Buffalo, NY, 142071311", , , , ,562920,MRF, ,NY
+-82.1706959615324,41.2981319806065,"Allied Waste Industries, LLC","43502 Oberlin Elyria Rd, Oberlin, OH, 440749591", , , , ,562920,MRF, ,OH
+-75.3546730314171,40.0948710134695,Allied Waste Recyclery,"215 E Dekalb Pike, King of Prussia, PA, 194062116", , , , ,562920,MRF, ,PA
+-104.994380010755,39.7975330146951,Alpine Waste and Recycling,"645 W 53rd Pl, Denver, CO, 802161600",Denver,(303) 744-9881, ,www.alpinewaste.com,562920,MRF, ,CO
+-77.5005140050782,38.7426710029797,"American Disposal Recycling Services, Inc","10370 Central Park Dr, Manassas, VA, 201104196", , , , ,562920,MRF, ,VA
+-77.528152576428,38.7332740932392,American Recycling Center,"10220 Residency Rd, Manassas, VA, 201102011", , , , ,562920,MRF, ,VA
+-84.5453290289944,33.7568849948034,American Recycling of GA,"4785 Fulton Industrial Blvd SW, Atlanta, GA, 30336", , , , ,562920,MRF, ,GA
+-82.6475870249083,35.5409129874506,"American Recycling of Western North Carolina, LLC","1291 Sand Hill Rd, Candler, NC, 287156907", , , , ,562920,MRF, ,NC
+-85.5883790112978,44.7108169853272,"American Waste, Inc.","280 Hughes Dr, Traverse City, MI, 496968255", , , , ,562920,MRF, ,MI
+-88.2868869734401,42.6538399852132,Andy's Recycling,"6320 McHenry St, Burlington, WI, 53105", , , , ,562920,MRF, ,WI
+-77.7934509598619,39.6261479890097,Apple Valley Recycling Center,"16608 Hunters Green Pkwy, Hagerstown, MD, 217402187", , , , ,562920,MRF, ,MD
+-89.6649420120123,40.5279110188261,Area Recycling Inc,"14323 State Route 29, Pekin, IL, 615548071",Tazewell,(309) 353-3333, ,www.pdcarea.com,562920,MRF, ,IL
+-88.7188582731886,43.6420359267252,Aronson Recycling Co,"513 Fond du Lac St, Waupun, WI, 53963", , , , ,562920,MRF, ,WI
+-83.3365600199143,33.9635300049388,Athens Recycling Information,"699 Hancock Indus Way, Athens, GA, 306051903",Clarke,(706) 548-9808, ,www.athensclarkecounty.com,562920,MRF, ,GA
+-118.401875020192,34.2552540145142,Athens Services,"12303 Montague St, Pacoima, CA, 91331", , , , ,562920,MRF, ,CA
+-82.1734680245507,39.3812830091367,"Athens-Hocking County Recycling Centers, Inc","5991 Industrial Park Rd, Athens, OH, 457018736", , , , ,562920,MRF, ,OH
+-74.1926101722111,40.0639991529309,Atlantic Coast Recycling of Ocean LL,"611 New Hampshire Ave, Lakewood, NJ, 08701", , , , ,562920,MRF, ,NJ
+-83.2059660289464,33.1189530124511,"Attaway Recycling, LLC","150 Dundee Dr, Milledgeville, GA, 310617865",Baldwin,(478) 414-1675, ,www.attawayrecycling.com,562920,MRF, ,GA
+-73.1712149983138,41.1812579916703,Automated Material Handling,"1300 Seaview Avenue, Bridgeport, CT, 06606", , , , ,562920,MRF, ,CT
+-97.6260329958172,30.3266510089518,"Balcones Recycling, Inc.","9301 Johnny Morris Rd, Austin, TX, 787241523", , , , ,562920,MRF, ,TX
+-76.6471713615728,39.4748701993621,Baltimore County MRF,"201 West Warren Road, Cockeysville, MD, 21030", , , , ,562920,MRF, ,MD
+-92.0330482436528,45.3597828115646,Barron County Waste to Energy and Recycling Facility,"585 10 1/2 Ave, Almena, WI, 54805", , , , ,562920,MRF, ,WI
+-74.3076780225651,40.5115780003889,Bayshore Recycling Corp.,"75 Crows Mill Rd, Keasbey, NJ, 08832", , , , ,562920,MRF, ,NJ
+-104.82986496055,38.8907570200463,"Bestway Recycling, Inc.","4005 Interpark Dr Ste A, Colorado Springs, CO, 809074213",El Paso,(719) 203-3313, ,www.bestwaydisposal.com,562920,MRF, ,CO
+-75.2211659938195,39.9327800096631,BFI Philadelphia Transcycler Co,"2209 S 58th St, Philadelphia, PA, 191435935", , , , ,562920,MRF, ,PA
+-122.425581990939,40.5831289852892,Big Foot Recycling Center,"3685 Eureka Way, Redding, CA, 960010177",Shasta,(530) 244-2165, ,www.bigfootrecycling.com,562920,MRF, ,CA
+-86.7750959874946,33.5264140057967,"Birmingham Recycling & Recovery, LLC","9 41st St S, Birmingham, AL, 352221928",Jefferson,(205) 591-8201, ,www.birminghamrecyclingandrecovery.com,562920,MRF, ,AL
+-122.381520002327,37.6487339835841,Blue Line Transfer Inc,"500 E Jamie Ct, South San Francisco, CA, 94080", , , , ,562920,MRF, ,CA
+-105.208716003787,40.0182379968551,Boulder County Recycling Center,"1901 63rd St, Boulder, CO, 803012953",Boulder,(303) 449-1857, ,www.bouldercounty.org,562920,MRF, ,CO
+-107.6633,37.813555,Bruin Waste Management,", Silverton, CO, 81433", , , , ,562920,MRF, ,CO
+-93.3997759937308,44.703638010986,Buckingham Recycling Facility,"5980 Credit River Road SE, Prior Lake, MN, 55372", , , , ,562920,MRF, ,MN
+-105.977902973992,35.6954070114045,Buckman Recycling Center,"2600 Buckman Road, Santa Fe, NM, 87507", , , , ,562920,MRF, ,NM
+-78.8329515414466,42.8458079895219,Buffalo Recycling Enterprises LLC,"266 Hopkins St, Buffalo, NY, 142201821", , , , ,562920,MRF, ,NY
+-118.308355025159,34.1755199870913,Burbank Recycle Center,"500 S Flower St, Burbank, CA, 91502", , , , ,562920,MRF, ,CA
+-117.511718998436,34.0888379905787,"Burrtec Waste and Recycling Services, LLC","13373 NAPA St, Fontana, CA, 923352930",San Bernardino,(951) 360-9073, ,www.burrtec.com,562920,MRF, ,CA
+-117.381554999101,34.0220359824701,Burrtec Waste Industries,"1850 Agua Mansa Rd, Riverside, CA, 92509", , , , ,562920,MRF, ,CA
+-121.879807022344,37.3650499793538,California Waste Solutions Inc.,"1005 Timothy Dr, San Jose, CA, 951331043",Santa Clara,(510) 832-8111, ,www.calwaste.com,562920,MRF, ,CA
+-122.302668002575,37.8108640051498,California Waste Solutions Inc.,"1819 10th St, Oakland, CA, 946071451",Alameda,(510) 836-6200, ,www.calwaste.com,562920,MRF, ,CA
+-121.311908187956,38.27039694333,Cal-Waste Recovery Systems,"175 Enterprise Ct STE A, Galt, CA, 95632", , , , ,562920,MRF, ,CA
+-77.6802607335524,43.1735154675197,Cascades New York Inc.,"1845 Emerson St, Rochester, NY, 146063123", , , , ,562920,MRF, ,NY
+-71.8704448788755,42.192660003059,Casella Recycling - Auburn,"15 Hardscrabble Rd, Auburn, MA, 01501",Worcester,(508) 721-2700, ,www.republicservices.com,562920,MRF, ,MA
+-71.0745402570229,42.378684651283,Casella Recycling - Boston,"24 Bunker Hill Industrial Park, Boston, MA, 021291621",Suffolk,(617) 242-7746, ,www.republicservices.com,562920,MRF, ,MA
+-70.185783677821,44.0493879299841,Casella Recycling Materials Recovery Facility,"424 River Road, Lewiston, ME, 04240", , , , ,562920,MRF, ,ME
+-72.9929449935411,43.6043059796115,"Casella Renewable Systems, LLC","25 Greens Hill Ln, Rutland, VT, 057013804", , , , ,562920,MRF, ,VT
+-73.1320844499419,44.4625494911556,"Casella Waste Management, Inc.","357 Avenue, Williston, VT, 054957146", , , , ,562920,MRF, ,VT
+-119.782513026047,36.7264790026129,"Cedar Avenue Recycling and Transfer Station, L.P.","253 Fulton St, Fresno, CA, 937213108",Fresno, , , ,562920,MRF, ,CA
+-117.957059991526,34.1053889804079,Cedarwood-Young Company,"14620 Joanbridge St, Baldwin Park, CA, 917061750",Los Angeles,(626) 962-4047, ,www.allancompany.com,562920,MRF, ,CA
+-80.0895211194127,32.953633089994,Charleston County MRF,"8099 Palmetto Commerce Parkway, North Charleston, SC, 29456", , , , ,562920,MRF, ,SC
+-73.5194020222497,41.0794229810496,City Carting & Recycling Inc.,"8 Viaduct Rd Stamford, Stamford, CT, 06907",Fairfield,(888) 413-3344, ,www.citycarting.net,562920,MRF, ,CT
+-118.229967969577,34.0150220058929,City Fibers,"2500 S. Sante Fe Ave, Los Angeles, CA, 90058", , , , ,562920,MRF, ,CA
+-118.496802001492,34.222267998486,"City Fibers, Inc.","16714 Schoenborn St, North Hills, CA, 913436108",Los Angeles,(818) 895-7203, ,www.cityfibers.com,562920,MRF, ,CA
+-92.2562104324147,39.014540287683,City of Columbia MRF,"5700 Peabody Road, Columbia, MO, 65202", , , , ,562920,MRF, ,MO
+-92.5064658829035,35.1114961841532,City of Conway Recycling Center,"4550 US-64 , Conway, AR, 72034", , , , ,562920,MRF, ,AR
+-87.6582646286302,34.8064715713787,City of Florence Recycling Center,"201 Railroad Avenue, Florence, AL, 35630", , , , ,562920,MRF, ,AL
+-112.309105979423,33.5472149977215,City of Glendale Municipal Landfill and MRF,"11480 W. Glendale Avenue, Glendale, AZ, 85307", , , , ,562920,MRF, ,AZ
+-87.9088540039532,43.041902991497,City of Milwaukee,"841 N Broadway, Milwaukee, WI, 53202", , , , ,562920,MRF, ,WI
+-103.300401270155,44.1343761584988,City of Rapid City,"5165 N Highway 79, Rapid City, SD, 577029688", , , , ,562920,MRF, ,SD
+-122.106066021186,36.9765599989224,City of Santa Cruz,"605 Dimeo Ln, Santa Cruz, CA, 950605610",Santa Cruz,(831) 420-6270, ,www.cityofsantacruz.com,562920,MRF, ,CA
+-83.265941982747,33.9260900132014,Clarke Co - Athens Dunlap Road MRF,"5700 Lexington Road, Winterville, GA, 30683", , , , ,562920,MRF, ,GA
+-74.482467022949,40.4762329815312,"Colgate Paper Stock Co., Inc.","12 Industrial Dr, New Brunswick, NJ, 08901", , , , ,562920,MRF, ,NJ
+-84.8483510058599,32.49018500675,Columbus Recycling & Sustainability Center,"8001 Pine Grove Way, Columbus, GA, 31907", , , , ,562920,MRF, ,GA
+-119.798624971788,39.5303699930806,Commercial Row Recycling MRF,"1100 E Commercial Row, Reno, NV, 89512", , , , ,562920,MRF, ,NV
+-122.305168994844,37.8790919845362,"Community Conservation Center, Inc","669 Gilman St, Berkeley, CA, 947101330",Alameda,(510) 524-0113, ,www.berkeleyrecycling.org,562920,MRF, ,CA
+-96.9120130301043,32.8659209994908,Community Waste Disposal,"2010 California Crossing Road, Dallas, TX, 75220", , , , ,562920,MRF, ,TX
+-117.87106996303,33.8490979996739,Consolidated Volume Transporters Inc,"1131 N Blue Gum St, Anaheim, CA, 928062408",Orange,(714) 238-3301, , ,562920,MRF, ,CA
+-77.5391349650636,34.7985919866704,Costal Enterprises Inc,"417 Meadowview Rd, Jacksonville, NC, 285407313", , , , ,562920,MRF, ,NC
+-75.9789470378212,40.5412649831462,"Cougle's Recycling, Inc.","1000 S 4th St, Hamburg, PA, 195269208", , , , ,562920,MRF, ,PA
+-89.8403230262177,44.0269950050987,County of Adams,"1420 State Road 21, Friendship, WI, 53934", , , , ,562920,MRF, ,WI
+-89.3729030105159,43.4893309946589,County of Columbia,"W 7465 State Hwy 16, Pardeeville, WI, 53954", , , , ,562920,MRF, ,WI
+-84.9121740017608,45.4443420169151,County of Emmet,"7363 S Pleasantview Rd, Harbor Springs, MI, 497409421", , , , ,562920,MRF, ,MI
+-119.598298994637,36.3026310113738,County of Kings,"7803 Hanford Armona Rd, Hanford, CA, 932309343",Kings,(559) 583-8829, ,www.countyofkings.com,562920,MRF, ,CA
+-81.8717240364624,26.6428330199061,County of Lee,"1500 Monroe St, Fort Myers, FL, 339015500",Lee, , ,www.leegov.com,562920,MRF, ,FL
+-89.4084299585821,45.6476799890622,County of Oneida,"PO Box 695, Rhinelander, WI, 54501-0695", , , , ,562920,MRF, ,WI
+-92.4906050378879,44.7435110177582,County of Pierce,"707 N Maple St, Ellsworth, WI, 540119039", , , , ,562920,MRF, ,WI
+-90.8405539723302,43.599528001435,County of Vernon,"S3705 County Road LF, VIROQUA, WI, 54665", , , , ,562920,MRF, ,WI
+-89.0667619598409,44.3506059955577,County of Waupaca,"811 Harding St, Waupaca, WI, 549812012", , , , ,562920,MRF, ,WI
+-118.000879994594,33.7982289836733,CR&r Incorporated,"11292 Western Ave, Stanton, CA, 906802912",Orange,(714) 826-9049, ,www.crrwasteservices.com,562920,MRF, ,CA
+-117.226754993772,33.7690670014215,CR&r Incorporated,"1706 Goetz Rd, Perris, CA, 925706274",Riverside,(951) 634-8079, ,www.crrwasteservices.com,562920,MRF, ,CA
+-85.0457407519646,35.9640443635238,Cumberland County Recycling Center,"96 Maryetta St, Crossville, TN, 38555", , , , ,562920,MRF, ,TN
+-82.5797530368807,35.6385529812605,"Curbside Management, Inc.","116 N Woodfin Ave, Asheville, NC, 288048818", , , , ,562920,MRF, ,NC
+-72.7541180014396,41.6430340109595,"CWPM, LLC","415 Christian Ln, Berlin, CT, 06037",Hartford,(860) 828-1162, ,www.cwpm.net,562920,MRF, ,CT
+-84.9555247836402,34.6469589945905,Dalton-Whitfield Solid Waste Authority Materials Recovery Facility,"4305 Old Dixie Hwy SE, Dalton, GA, 30721", , , , ,562920,MRF, ,GA
+-73.8623356744176,40.9725963051298,Daniel P. Thomas Material Recovery Facility,"1 A, Stew Leonard Dr, Yonkers, NY, 10710", , , , ,562920,MRF, ,NY
+-75.0466452078492,42.1617214876307,Delaware County Solid Waste Management Center,"32230 NY-10, Walton, NY, 13856", , , , ,562920,MRF, ,NY
+-93.5848930075694,44.7613720152348,"Dem-Con Companies, LLC","13020 Dem Con Dr, Shakopee, MN, 553797200", , , , ,562920,MRF, ,MN
+-90.7512830154743,42.5019679882108,"Dittmer Recycling, Inc.","1755 Radford Rd, Dubuque, IA, 520022532",Dubuque,(563) 583-3381, ,www.dittmerrecycling.com,562920,MRF, ,IA
+-87.6554610243325,41.5733940161641,"Diversified Recycling, Inc.","17415 Ashland Ave, East Hazel Crest, IL, 604291824",Cook,(708) 798-1114, ,www.diversified-recycling.com,562920,MRF, ,IL
+-118.111896961048,33.9236769890058,Downey Area Recycling and Transfer (DART),"9770 Washburn Rd, Downey, CA, 90241", , , , ,562920,MRF, ,CA
+-91.9668380133652,44.8895020200356,Dunn County Transfer Station and Recycling Center,"E3900 State Road 29, Menomonie, WI, 54751", , , , ,562920,MRF, ,WI
+-107.893784003283,37.2745939890272,Durango Recycling Center,"710 Tech Center Dr, Durango, CO, 81301", , , , ,562920,MRF, ,CO
+-81.168777989844,37.8184226294025,E Paul Barley Regional Recycling Center,"200 Fernandez Dr, Beckley, WV, 25801", , , , ,562920,MRF, ,WV
+-71.5912676563446,42.2557970240042,E.L. Harvey & Sons Inc.,"68 Hopkinton Road, Westborough, MA, 01581",Worcester,(800) 321-3002, ,www.elharvey.com,562920,MRF, ,MA
+-90.0249790353817,41.1609340138551,Eagle Enterprises Recycling Inc,"510 SE Industrial Ave, Galva, IL, 614348923",Henry,(309) 932-2936, ,www.eerecycling.com,562920,MRF, ,IL
+-75.6087519859936,38.3725899869449,"Eagle Recycling, LLC","510 West Rd, Salisbury, MD, 218013550", , , , ,562920,MRF, ,MD
+-89.2639510097279,45.9281549816617,"Eagle Waste & Recycling, Inc.","701 Surgipath Rd, Eagle River, WI, 54521", , , , ,562920,MRF, ,WI
+-85.3790109722776,40.2065599990108,East Central Recycling,"701 E Centennial Ave, Muncie, IN, 473033065",Delaware,(765) 254-5965, ,www.cairocafe.org,562920,MRF, ,IN
+-117.260530962264,34.078706993758,East Valley Recycling & Transfer,"1150 & 1250 S Tippecanoe Ave, San Bernardino, CA, 92408", , , , ,562920,MRF, ,CA
+-77.3511609795276,35.6534270037214,Eastern Carolina Vocational Center (ECVC),"901 Staton Road, Greenville, NC, 27834", , , , ,562920,MRF, ,NC
+-70.3345270037345,43.6550014483068,Eco Maine,"64 Blueberry Rd, Portland, ME, 04102", , , , ,562920,MRF, ,ME
+-87.3960120358486,30.5717659790869,ECUA Materials Recycling Facility,"13009 Beulah Rd, Cantonment, FL, 32533", , , , ,562920,MRF, ,FL
+-84.5371000117329,42.7205609822276,Emterra,"1159 S Pennsylvania, Lansing, MI, 48912", , , , ,562920,MRF, ,MI
+-117.098746987571,33.1233929903821,Escondido Resource Recovery,"1044 W. Washington Ave, Escondido, CA, 92025", , , , ,562920,MRF, ,CA
+-93.2201050376613,44.9936159863108,Eureka Recycling,"2828 Kennedy St Northeast, Minneapolis, MN, 55413", , , , ,562920,MRF, ,MN
+-122.915424016731,45.4956800003981,Far West Recycling,"6440 Southeast Alexander St, Hillsboro, OR, 97123", , , , ,562920,MRF, ,OR
+-122.531965022223,45.5576019806589,"Far West Recycling, Inc.","12820 Ne Marx St, Portland, OR, 972301067", , , , ,562920,MRF, ,OR
+-95.2542070277287,29.8299970104499,FCC Environmental Services,"9172 Ley Rd, Houston, TX, 77078", , , , ,562920,MRF, ,TX
+-96.7119950040764,32.6852810115951,"FCC Environmental Services, LLC","5200 Simpson Stuart Rd, Dallas, TX, 75241", , , , ,562920,MRF, ,TX
+-75.1050659898227,39.9141930136431,FCR Camden Inc,"2201 Mount Ephraim Ave, Camden, NJ, 081043232", , , , ,562920,MRF, ,NJ
+-99.4111890249937,27.4894919933238,First Recycling Llc.,"6912 State Highway 359, Laredo, TX, 780434787", , , , ,562920,MRF, ,TX
+-96.075223999133,41.2185569997963,First Star Recycling,"10330 I St Ste 300, Omaha, NE, 681271009", , , , ,562920,MRF, ,NE
+-111.187912016729,45.709584995969,"Four Corners Recycling, LLC","357 Recycle Way, Bozeman, MT, 59718", , , , ,562920,MRF, ,MT
+-121.990506479364,37.5106021260826,Fremont Recycling & Transfer Station,"41149 Boyce Rd, Fremont, CA, 945383199",Alameda, , ,www.fremont-recycling.com,562920,MRF, ,CA
+-111.004706998824,32.2790140203568,Friedman Recycling Company,"1825 W Price St, Tucson, AZ, 857052216",Pima,(520) 696-0660, ,www.friedmanrecycling.com,562920,MRF, ,AZ
+-106.630661034319,35.1319650025721,Friedman Recycling Company,"5049 Edith Blvd Ne, Albuquerque, NM, 871074126", , , , ,562920,MRF, ,NM
+-112.138423021947,33.4429439964904,"Friedman Recycling of El Paso, LP","3640 W Lincoln St, Phoenix, AZ, 850095595",Maricopa,(602) 269-9324, ,www.friedmanrecycling.com,562920,MRF, ,AZ
+-106.403663003074,31.8780870139032,"Friedman Recycling of El Paso, LP","5835 Wren Ave, El Paso, TX, 799246625", , , , ,562920,MRF, ,TX
+-116.273405037948,43.5857530141184,"Future Enterprises, Inc.","1990 S Cole Rd, Boise, ID, 837092813",Ada,(208) 375-8580, ,www.westernrecycling.net,562920,MRF, ,ID
+-123.010461471514,44.9680821946674,Garten Services Recycling and Document Destruction,"3334 Industrial Way NE, Salem, OR, 97303", , , , ,562920,MRF, ,OR
+-95.4658869632825,29.65034600331,Gasmer Drive MRF,"4939 Gasmer Dr, Houston, TX, 77035", , , , ,562920,MRF, ,TX
+-81.2898890307591,28.9365419973324,"Gel Recycling, Inc.","1200 S Leavitt Ave, Orange City, FL, 327637114",Volusia,(386) 775-5385, ,www.gelrecycling.com,562920,MRF, ,FL
+-81.1730869585523,36.162423019373,GFL Wilkesboro,"489 Boone Trail, North Wilkesboro, NC, 28659", , , , ,562920,MRF, ,NC
+-120.926130004658,37.6233560115207,Gilton Resource Recovery,"800 S McClure Rd, Modesto, CA, 95357", , , , ,562920,MRF, ,CA
+-118.258896012911,34.089190994431,"Glendale Recycling Center, Inc.","1850 Glendale Blvd, Los Angeles, CA, 900261762",Los Angeles, , , ,562920,MRF, ,CA
+-92.1701999999999,45.0587300000001,Glenwood City Recycling Center,"221 Water St, Glenwood City, WI, 54013", , , , ,562920,MRF, ,WI
+-119.145694998626,34.2767180149802,Gold Coast Recycling Ctr Inc.,"1895 Lirio Ave, Ventura, CA, 930043221",Ventura,(805) 659-2006, , ,562920,MRF, ,CA
+-117.923860027419,34.0021300101664,"Grand Central Recycling & Transfer Station, Inc.","17445 Railroad St, City of Industry, CA, 917481026",Los Angeles,(626) 855-5538, , ,562920,MRF, ,CA
+-91.2246860336627,43.8623259793327,Green Circle Recycling LLC,"2850 Larson St, La Crosse, WI, 546031829", , , , ,562920,MRF, ,WI
+-96.714920958837,40.8089289911132,Green Quest Recycling,"440 J St, Lincoln, NE, 685082932", , , , ,562920,MRF, ,NE
+-75.4848569796815,40.6903859976169,"Greenstar Allentown, LLC","799 Smith Ln, Northampton, PA, 180671500", , , , ,562920,MRF, ,PA
+-81.472403966576,41.0322389849612,"Greenstar Mid-America, LLC","1535 Exeter Rd, Akron, OH, 443063889", , , , ,562920,MRF, ,OH
+-98.3816120300356,29.4216520196859,"Greenstar Mid-America, LLC","5610 FM 1346, San Antonio, TX, 782201906", , , , ,562920,MRF, ,TX
+-80.1165690180457,40.5103669830182,"Greenstar Pittsburgh, LLC","4100 Grand Ave, Pittsburgh, PA, 152251516", , , , ,562920,MRF, ,PA
+-95.5690080093075,29.7916010207458,"Greenstar Recycling, LLC","1200 Brittmoore Rd, Houston, TX, 770434000", , , , ,562920,MRF, ,TX
+-86.2551289825956,41.6459260190121,"GreenTech Transfer & Recycling, LLC","2500 Green Tech Drive, South Bend, IN, 46613", , , , ,562920,MRF, ,IN
+-121.897326960181,37.3682169976497,Greenwaste Recovery,"610 E Gish Rd, San Jose, CA, 95112", , , , ,562920,MRF, ,CA
+-82.0743840383712,34.1943480047372,Greenwood County Recycling Center,"1119 Siloam Church Rd, Greenwood, SC, 29646", , , , ,562920,MRF, ,SC
+-70.9799814089108,42.5535626674787,"Greenworks Park, LLC","265 Newbury St, Peabody, MA, 01960",Essex, , ,www.greenworksrecycles.com,562920,MRF, ,MA
+-87.9400271127313,42.0010751332165,Groot Industries,"1759 Elmhurst Rd, Elk Grove Village, IL, 60007-5924", , , , ,562920,MRF, ,IL
+-95.2657820169188,39.0514099826345,HAMM Material Recovery Facility,"16984 3rd St, Lawrence, KS, 66044", , , , ,562920,MRF, ,KS
+-71.8556799887939,42.5667447189647,"Harvey Recycling of Fitchburg, LLC","50 Arbor Way, Fitchburg, MA, 01420",Worcester,(978) 342-2200, ,www.elharvey.com,562920,MRF, ,MA
+-120.47813898906,34.9198220087774,Health Sanitation Service Recycling Center,"1850 W. Betteravia Road, Santa Maria, CA, 93455", , , , ,562920,MRF, ,CA
+-87.776759987593,41.8074340195431,Heartland Recycling LLC,"6201 Canal Bank Rd, Forest View, IL, 604024513",Cook,(708) 458-4300, ,www.lrsrecycles.com,562920,MRF, ,IL
+-79.9127829912644,35.9467859873301,High Point MRF,"5875 Riverdale Dr, Jamestown, NC, 272829239", , , , ,562920,MRF, ,NC
+-91.246527010224,43.9211780037364,Hilltopper Refuse & Recycling Service Inc,"W6833 Industrial Blvd, Onalaska, WI, 54650", , , , ,562920,MRF, ,WI
+-78.904844969001,33.8120519992952,Horry County MRF,"511 Three R Drive, Conway, SC, 29526", , , , ,562920,MRF, ,SC
+-105.251750035794,38.4108499802701,Howard Disposal and Recycling,"2100 Forge Road, Canon City, CO, 81212", , , , ,562920,MRF, ,CO
+-73.9451339719561,41.5154787532592,Hudson Baylar Beacon LLC,"508 Fishkill Ave, Beacon, NY, 125081255", , , , ,562920,MRF, ,NY
+-87.6628360094795,41.848542979848,"Independent Recycling Services, Inc.","2401 S Laflin St, Chicago, IL, 606085005",Cook,(727) 573-9150, ,www.recyclingservicesofflorida.com,562920,MRF, ,IL
+-95.3585690145188,29.8204719833195,"Independent Texas Recyclers, LLC","6810 Irvington Blvd, Houston, TX, 770226321", , , , ,562920,MRF, ,TX
+-80.8417978628588,35.5865276363691,Iredell County Transfer Station,"158 Macleod Dr, Mooresville, NC, 28117", , , , ,562920,MRF, ,NC
+-73.0837825567486,40.7784895135971,Islip Recycle Center,"1155 Lincoln Ave, Bohemia, NY, 11716", , , , ,562920,MRF, ,NY
+-76.6102370324592,40.9613849972195,Jaws Recycling,"531 Railroad St, Danville, PA, 178211642", , , , ,562920,MRF, ,PA
+-88.7269470322537,42.8553149955605,JOHNS DISPOSAL SERVICE INC - WHITEWATER,"107 County Rd U, Whitewater, WI, 53190", , , , ,562920,MRF, ,WI
+-88.0715360157525,42.8191179981545,Johns Recycling Inc,"7311 Omega Cir, Franksville, WI, 531269160", , , , ,562920,MRF, ,WI
+-122.565133973288,45.4098439893731,Kahut Waste Services LLC,"9602 SE Clackamas Rd, Clackamas, OR, 970159731", , , , ,562920,MRF, ,OR
+-94.3707361857471,38.699775938344,Kansas City MRF,"19212 E 231st St, Harrisonville, MO, 64701", , , , ,562920,MRF, ,MO
+-85.6920120239686,42.9570790114612,Kent County Recycling and Education Center,"977 Wealthy St SW, Grand Rapids, MI, 49503", , , , ,562920,MRF, ,MI
+-81.4737599908718,41.3008139800751,Kimble Twinsburg Recycling Center & Transfer Station,"8500 Chamberlin Rd, Twinsburg, OH, 44087", , , , ,562920,MRF, ,OH
+-87.7000519948546,41.8340929978685,"Lakeshore Recycling Systems, LLC","3152 S California Ave, Chicago, IL, 606085112",Cook, , ,www.lrsrecycles.com,562920,MRF, ,IL
+-84.5164760036936,38.05696799795,LFUCG Regional Recycling Facility,"360 Thompson Rd, Lexington, KY, 40508", , , , ,562920,MRF, ,KY
+-76.9186589666263,41.1515870183481,Lycoming County Recycling Center,"447 Alexander Drive, Montgomery, PA, 17752", , , , ,562920,MRF, ,PA
+-89.4064519970708,43.0417900034421,Madison Recycling Center,"2200 Fish Hatchery Rd, Madison, WI, 53713", , , , ,562920,MRF, ,WI
+-87.7138229588576,44.1338110035908,Manitowoc County Recycling,"3000 Basswood Rd, Manitowoc, WI, 542208759", , , , ,562920,MRF, ,WI
+-94.1016851990026,36.3681579643713,"Marck Industries, Inc.","3507 N Arkansas St, Rogers, AR, 727569856",Benton,(479) 636-2346, ,www.marck.net,562920,MRF, ,AR
+-122.504666001771,37.9540779990862,"Marin Recycling & Resource Recovery Association, Inc","535 Jacoby St, San Rafael, CA, 949015305",Marin,(415) 453-1404, ,www.marinsanitaryservice.com,562920,MRF, ,CA
+-84.2664399762947,30.3600969819167,"Marpan Recycling, LLC","6020 Woodville Hwy, Tallahassee, FL, 323051200",Leon,(850) 216-1006, ,www.marpan.com,562920,MRF, ,FL
+-87.4715537086432,46.4894873444456,Marquette County Solid Waste Management Authority,"600 Co Rd NP, Marquette, MI, 49855", , , , ,562920,MRF, ,MI
+-74.1125255236323,40.2313111864404,"Mazza Recycling Services, Ltd.","3230A Shafto Rd, Tinton Falls, NJ, 07753", , , , ,562920,MRF, ,NJ
+-94.3489560365439,44.8877520043811,McLeod County Environmental Services,"1065 5th Ave SE, Hutchinson, MN, 55350", , , , ,562920,MRF, ,MN
+-93.6141989909178,41.5893089871803,Metro Waste Authority,"300 E Locust St Ste 100, Des Moines, IA, 503091864",Polk,(515) 323-6519, ,www.mwatoday.com,562920,MRF, ,IA
+-80.8052830122436,35.2670850117073,Metrolina Recycling Center,"1007 Amble Dr, Charlotte, NC, 282061301", , , , ,562920,MRF, ,NC
+-119.057467001983,35.3672850063851,"Metropolitan Recycling, LLC","5001 Commerce Dr, Bakersfield, CA, 93309",Kern,(661) 836-8380, , ,562920,MRF, ,CA
+-86.2183650332588,41.811049008654,Michiana Recycling & Disposal Company,"33541 Reum St, Niles, MI, 491209522", , , , ,562920,MRF, ,MI
+-93.5643919620497,41.5877310100886,Mid America Recycling,"2742 E Market St, Des Moines, IA, 503171243",Polk,(515) 265-1208, , ,562920,MRF, ,IA
+-121.282315040604,44.0887410073024,Mid Oregon Recycling,"20835 Montana Way, Bend, OR, 977016732", , , , ,562920,MRF, ,OR
+-119.789420971549,36.7021200185186,"Mid-Valley Recycling, LLC","2721 S Elm Ave, Fresno, CA, 937065436",Fresno,(559) 268-0078, , ,562920,MRF, ,CA
+-89.0231690225299,40.5008580072322,"Midwest Fiber Recycling of Peoria, Inc.","422 S White Oak Rd, Normal, IL, 617614328",McLean,(309) 452-0064, ,www.midwest-fiber.com,562920,MRF, ,IL
+-96.7235620304587,43.5907758276868,"Millennium Recycling, Inc.","305 E 50th St N, Sioux Falls, SD, 571040602", , , , ,562920,MRF, ,SD
+-121.825409979478,36.5829109989959,Monterey City Disposal and MRF,"10 Ryan Ranch Rd, Monterey, CA, 93940", , , , ,562920,MRF, ,CA
+-121.787598477447,36.7207527324301,Monterey Regional Waste Management District,"14201 Del Monte Blvd, Marina, CA, 93933", , , , ,562920,MRF, ,CA
+-77.1695419853411,39.1202360108123,Montgomery County Recycling,"16105 Frederick Rd, Derwood, MD, 208552283", , , , ,562920,MRF, ,MD
+-121.858071993039,38.018863991843,Mt. Diablo Paper Stock Inc.,"1300 Loveridge Rd, Pittsburg, CA, 945652801",Contra Costa,(925) 682-4518, ,www.mdrr.com,562920,MRF, ,CA
+-75.8859944934575,41.2279992112553,"Municipal Recovery, Inc.","495 Stanton St, Wilkes Barre, PA, 187026174", , , , ,562920,MRF, ,PA
+-122.264489020344,38.2095960007094,NAPA Recycling & Waste Services LLC,"820 Levitin Way, American Canyon, CA, 94559",Napa,(707) 255-5200, ,www.naparecycling.com,562920,MRF, ,CA
+-96.2193949968644,41.239247979242,"Nebraskaland Recycling, LLC","2041 S 195th St, Omaha, NE, 681302984", , , , ,562920,MRF, ,NE
+-121.578026815481,39.1485110433888,Norcal Waste-Marysville,"3001 N Levee Rd, Marysville, CA, 959013600",Yuba,(530) 743-0424, ,www.yubasutterrecycles.com,562920,MRF, ,CA
+-81.9401004708704,33.5070918887056,North Augusta MRF,"67 Claypit Rd, North August, SC, 29841", , , , ,562920,MRF, ,SC
+-80.2472813662241,35.8837470418575,"North Davidson Garbage Service, Inc","4157 Old US Hwy 52, Lexington, NC, 27295", , , , ,562920,MRF, ,NC
+-81.5317599948177,30.1958670002389,North Florida Recycling Inc,"9104 Woodjack CT, Jacksonville, FL, 322566706",Duval,(904) 910-3302, ,www.northfloridarecycling.com,562920,MRF, ,FL
+-112.116530569818,33.7572515006577,North Gateway Transfer Station and MRF,"30205 N Black Canyon Hwy, Phoenix, AZ, 850855707",Maricopa,(623) 869-5010, ,www.republicservices.com,562920,MRF, ,AZ
+-117.170058962503,32.8768240115033,North San Diego MRF,"6733 Consolidated Way, San Diego, CA, 921212601",San Diego,(858) 578-9300, ,www.allancompany.com,562920,MRF, ,CA
+-75.9363179876754,41.2273371325015,Northeast Cartage and Recycling Solutions,"50 Breaker Rd, Hanover Township, PA, 187065243", , , , ,562920,MRF, ,PA
+-122.484567958156,48.7548929866194,"Northwest Recycling, Inc.","1419 C St, Bellingham, WA, 98225", , , , ,562920,MRF, ,WA
+-111.630148017607,35.1923520049045,"Norton Environmental, Inc.","1800 E Butler Ave, Flagstaff, AZ, 860015903",Coconino,(928) 556-9900, ,www.nortonenvironmentalinc.com,562920,MRF, ,AZ
+-73.1092029964127,41.2901560130018,Oak Ridge Waste & Recycling,"46/90 Oliver Terrace, Shelton, CT, 06484", , , , ,562920,MRF, ,CT
+-75.1348670083725,39.7463920059365,Omni Recycling LLC,"408 Lambs Rd, Pitman, NJ, 08071", , , , ,562920,MRF, ,NJ
+-75.2120309400324,43.1068529645493,Oneida-Herkimer Solid Waste Authority Recycling Center,"80 Leland Ave, Utica, NY, 13502", , , , ,562920,MRF, ,NY
+-77.0708421268359,42.8316679847882,Ontario County Recycling,"1879 County Road 5, Stanley, NY, 145619553", , , , ,562920,MRF, ,NY
+-88.3350580224464,44.2897739979858,Outagamie County Dept of Solid Waste/Recycling,"1419 Holland Rd, Appleton, WI, 54911", , , , ,562920,MRF, ,WI
+-122.722682320849,38.3939037417964,Pacific Coast Disposal Inc,"3400 Standish Ave, Santa Rosa, CA, 954078112",Sonoma,(707) 884-3886, ,www.recology.com,562920,MRF, ,CA
+-123.205587986487,39.206207012388,Pacific Recycling Solutions In,"4260 N State St, Ukiah, CA, 954829445",Mendocino, , ,www.candswaste.com,562920,MRF, ,CA
+-118.172040185966,33.907163363571,Paramount Resource Recycling,"7230 Petterson Ln, Paramount, CA, 907232022",Los Angeles,(562) 602-6505, ,www.paramountcity.com,562920,MRF, ,CA
+-89.3549313000148,43.0396747694538,Pellitteri Waste Systems LLC,"7035 Raywood Rd, Monona, WI, 53713", , , , ,562920,MRF, ,WI
+-119.304244983617,36.5314319899919,"Pena's Disposal, Inc.","12094 Avenue 408, Cutler, CA, 936152055",Tulare,(559) 528-3909, ,www.penasdisposal.com,562920,MRF, ,CA
+-76.7224419660504,40.0391870131899,Penn Waste,"85 Brick Yard Road, Manchester, Changed street address from ""201 Railroad Avenue"" to ""201 Railroad Ave"",PA, 17345", , , , ,562920,MRF, ,PA
+-79.0042570228708,36.3916930073834,Person Industries,"741 Martin St, Roxboro, NC, 27573", , , , ,562920,MRF, ,NC
+-122.539115037089,45.4002069800162,Pioneer Recycling Services LLC,"16810 SE 120th Ave, Clackamas, OR, 970159005", , , , ,562920,MRF, ,OR
+-122.374727978546,47.0837670085411,Pioneer Recycling Services LLC,"4109 192nd St E, Tacoma, WA, 984462745", , , , ,562920,MRF, ,WA
+-120.210939925262,39.2845780134844,Placer County Eastern Regional MRF,"870 Cabin Creek Rd, Truckee, CA, 96161", , , , ,562920,MRF, ,CA
+-84.4763569500504,33.8322562767565,Plant Atkinson Transfer Station MRF,"207 Plant Atkinson Road, Smyrna, GA, 30080", , , , ,562920,MRF, ,GA
+-92.4675520381273,45.4547059887344,Polk County Recycling,"100 Polk County Plz Ste 10, Balsam Lake, WI, 54810-9097", , , , ,562920,MRF, ,WI
+-95.7607940394171,47.5822434034469,Polk County Solid Waste Management,"708 8th St NW, Fosston, NM, 56542", , , , ,562920,MRF, ,NM
+-118.251440980589,33.7917599984407,Potential Industries Inc,"915 E Colon St, Wilmington, CA, 907442101",Los Angeles, , , ,562920,MRF, ,CA
+-118.250933959266,33.7759119988308,"Potential Industries, Inc.","922 E E St, Wilmington, CA, 907446145",Los Angeles,(310) 807-4466, ,www.potentialindustries.com,562920,MRF, ,CA
+-81.1456600302577,32.0476209800913,Pratt Industries,"101 Kahn Industrial Ct ste c, Savannah, GA, 31405", , , , ,562920,MRF, ,GA
+-97.0830979836559,33.1946949908485,Pratt Industries,"1401 S Mayhill Rd, Denton, TX, 76208", , , , ,562920,MRF, ,TX
+-78.8864320232004,35.0103179807824,Pratt Industries,"3686 Owen Drive, Fayetteville, NC, 28306", , , , ,562920,MRF, ,NC
+-80.9771759812614,34.9713660194406,Pratt Industries Inc,"720 Celriver Rd, Rock Hill, SC, 29730", , , , ,562920,MRF, ,SC
+-82.1523469696531,34.9002710100731,Pratt Industries Recycling,"255 Morley Ct, Duncan, SC, 29334", , , , ,562920,MRF, ,SC
+-83.9889632123234,33.6603307440957,"Pratt Recycling, Inc.","1800 Sarasot Bus Pkwy Ne C, Conyers, GA, 300135775",Rockdale,(678) 904-4165, ,www.prattindustries.com,562920,MRF, ,GA
+-111.536141034,33.381101015667,RAD Waste and Recycling Facility,"3755 S Royal Palm Rd, Apache Junction, AZ, 85119", , , , ,562920,MRF, ,AZ
+-93.8029069797149,45.049728008476,"Randy's Sanitation, Inc.","4351 Highway 12 SE, Delano, MN, 553288169", , , , ,562920,MRF, ,MN
+-86.1881119786706,39.7635979995894,Ray's Indianapolis Recycling,"200 S Harding St, Indianapolis, IN, 462224505",Marion,(317) 636-2024, ,www.raystrash.com,562920,MRF, ,IN
+-75.5328037399515,39.7054339353546,"RE Community Holdings II, Inc.","1101 Lambson Ln, New Castle, DE, 197202186",New Castle, , ,www.republicservices.com,562920,MRF, ,DE
+-98.4331699752901,29.4493024299314,"RE Community Holdings II, Inc.","1947 Hormel Dr, San Antonio, TX, 782192323", , , , ,562920,MRF, ,TX
+-83.238915038872,42.4451969808179,"RE Community Holdings II, Inc.","20000 W 8 Mile Rd, Southfield, MI, 480755708", , , , ,562920,MRF, ,MI
+-112.121261997205,33.4165169873352,"RE Community Holdings II, Inc.","3060 S 27th Ave, Phoenix, AZ, 850096810",Maricopa,(602) 501-2055, ,www.republicservices.com,562920,MRF, ,AZ
+-83.3958270323443,42.13510000712,"RE Community Holdings II, Inc.","36543 S Huron Rd, New Boston, MI, 481640800", , , , ,562920,MRF, ,MI
+-80.1286139805469,26.7595379877648,"RE Community Holdings II, Inc.","5860 45th St, West Palm Beach, FL, 334071621",Palm Beach, , ,www.republicservices.com,562920,MRF, ,FL
+-79.7744329738312,36.0396130085177,RE Community Recycling,"706 Patton Ave, Greensboro, NC, 274063717", , , , ,562920,MRF, ,NC
+-121.760342019498,42.2084679790813,Reach Inc,"2350 Maywood Dr, Klamath Falls, OR, 97603", , , , ,562920,MRF, ,OR
+-122.376476070875,37.7433100445836,Recology,"1000 Amador St., San Francisco, CA, 94124", , , , ,562920,MRF, ,CA
+-122.342347010198,47.5637550175022,Recology,"7 S. Idaho St., Seattle, WA, 98134", , , , ,562920,MRF, ,WA
+-122.253783988884,38.1437550197094,Recology Vallejo,"2021 Broadway St, Vallejo, CA, 945891701",Solano,(707) 552-3110, ,www.recology.com,562920,MRF, ,CA
+-74.7689567359195,39.2334130326607,ReCommunity Cape May Materials Recovery,"2046 County Highway 610, Woodbine, NJ, 082702429", , , , ,562920,MRF, ,NJ
+-74.6023160007792,40.8849220075109,Recommunity Corporation,"103 Iron Mountain Rd, Mine Hill, NJ, 078032300", , , , ,562920,MRF, ,NJ
+-75.1906953729838,39.9404011557608,ReCommunity Philadelphia,"2904 Ellsworth St, Philadelphia, PA, 191462713", , , , ,562920,MRF, ,PA
+-82.5292466220116,27.375562147878,Recommunity Sarasota,"4700 Middle Ave, Sarasota, FL, 342343114",Sarasota,(941) 359-0445, ,www.republicservices.com,562920,MRF, ,FL
+-75.1543697986382,40.1314647193531,ReCommunity Upper Dublin,"1030 Fitzwatertown Road, Willow Grove, PA, 19090", , , , ,562920,MRF, ,PA
+-71.0623976453498,42.1331878016391,Recycle America Alliance,"40 Ledin Dr, Avon, MA, 02322",Norfolk,(508) 586-5385, , ,562920,MRF, ,MA
+-76.8567202225591,38.8758594444375,"Recycle America Co., L.L.C.","1000 Ritchie Rd, Capitol Heights, MD, 207434907", , , , ,562920,MRF, ,MD
+-93.2347349791018,44.996726007665,"Recycle America Co., L.L.C.","1800 Broadway St Ne, Minneapolis, MN, 554132987", , , , ,562920,MRF, ,MN
+-93.2483695695402,44.6375217682857,Recycle Minnesota LLC,"8984 215th St W, Lakeville, MN, 550448338", , , , ,562920,MRF, ,MN
+-79.9434249661599,40.4021649949264,"Recycle Source, LLC","50 Vespucius St , Pittsburgh, PA, 15207", , , , ,562920,MRF, ,PA
+-76.3174510357517,36.8130260085748,"Recycling and Disposal Solutions of Virginia, Inc.","3325 Frederick Blvd, Portsmouth, VA, 237046823", , , , ,562920,MRF, ,VA
+-79.9571439623633,37.3507600079063,"Recycling and Disposal Solutions of Virginia, Inc.","7704 Enon Dr, Roanoke, VA, 24019", , , , ,562920,MRF, ,VA
+-98.7091379979202,46.9084069910033,"Recycling Center of North Dakota, LLC","104 1st Ave S Ste 400, Jamestown, ND, 584014198", , , , ,562920,MRF, ,ND
+-86.0019469754779,41.6907230167141,Recycling Works Inc,"707 N Wildwood Ave, Elkhart, IN, 465141877",Elkhart,(765) 776-2211, ,www.ourrecyclingworks.blogspot.com,562920,MRF, ,IN
+-111.425602003664,40.5065339806055,Recyclyops MRF,"665 W 100 S, Heber City, UT, 840323700", , , , ,562920,MRF, ,UT
+-158.097423994028,21.3061849872145,Reduce Reuse Recyclers Services Hawaii LLC,"91-165 Kalaeloa Blvd, Kapolei, HI, 967071895",Honolulu,(808) 845-9790, ,www.rrrhi5.com,562920,MRF, ,HI
+-80.0370339770043,33.1259749937458,Repower Berkeley,"645 Oakley Rd, Moncks Corner, SC, 29461", , , , ,562920,MRF, ,SC
+-86.3194170064849,32.3995859792455,Repower South Montgomery,"1551 Louisville St, Montgomery, AL, 361041607",Montgomery,(334) 356-5820, ,www.repowersouth.com,562920,MRF, ,AL
+-86.1363196644475,42.7353993469398,Republic Service of Holland,"4368 60th St, Holland, MI, 49423", , , , ,562920,MRF, ,MI
+-123.25072596001,44.5922599940526,Republic Services,"110 NE Walnut Blvd, Corvallis, OR, 97330", , , , ,562920,MRF, ,OR
+-121.929282966037,37.4539940000762,Republic Services,"1601 Dixon Landing Rd, Milpitas, CA, 95035", , , , ,562920,MRF, ,CA
+-122.330960027096,47.5784409919654,Republic Services,"2733 3rd Ave. S., Seattle, WA, 98134", , , , ,562920,MRF, ,WA
+-97.4426409776521,27.7871389909587,Republic Services,"4414 Agnes St, Corpus Christi, TX, 78405", , , , ,562920,MRF, ,TX
+-77.3716070397625,38.85263998008,Republic Services,"4619 West Ox Rd, Fairfax, VA, 22030", , , , ,562920,MRF, ,VA
+-87.8971220217166,41.8993809828067,Republic Services,"5050 West Lake St, Melrose Park, IL, 60160", , , , ,562920,MRF, ,IL
+-96.6514990370029,33.0118649792912,Republic Services - Plano Recycling Facility,"4200 E 14th St, Plano, TX, 75074", , , , ,562920,MRF, ,TX
+-93.0481331949346,44.7797919180151,Republic Services (Inver Grove Heights),"2795 117th St E, Inver Grove Heights, MN, 55077-5925", , , , ,562920,MRF, ,MN
+-71.0164857707063,42.0971879465959,Republic Services Brockton MRF,"190 Mulberry Street, Brockton, MA, 02302", , , , ,562920,MRF, ,MA
+-97.2543929877013,32.7799240140151,Republic Services Inc.,"6200 Elliott Reeder Rd, Fort Worth, TX, 76117", , , , ,562920,MRF, ,TX
+-115.144108037997,36.1444139974865,Republic Services Inc.,"770 E. Sahara Ave, Las Vegas, NV, 89104", , , , ,562920,MRF, ,NV
+-85.1052219723841,41.0615160088341,Republic Services Materials Recovery Facility and Recycling Collection,"2509 E Pontiac St, Fort Wayne, IN, 46803", , , , ,562920,MRF, ,IN
+-91.185171981894,30.5580861682809,Republic Services of Baton Rouge,"12451 Leisure Rd, Baton Rouge, LA, 70807", , , , ,562920,MRF, ,LA
+-89.9250390054308,35.0435479940119,Republic Services of Memphis,"3840 Homewood Rd, Memphis, TN, 38118", , , , ,562920,MRF, ,TN
+-81.2510249955817,35.7250359913917,Republic Services of North Carolina LLC,"130 Somerset Dr NW, Conover, NC, 286139217", , , , ,562920,MRF, ,NC
+-90.3602799728328,38.7658180057843,Republic Services Recycling - Northside,"6025 Byassee Dr, Hazelwood, MO, 630423105", , , , ,562920,MRF, ,MO
+-119.128424003314,34.2007319974716,"Republic Services, Inc.","111 S Del Norte Blvd, Oxnard, CA, 930307915",Ventura,(805) 385-8060, ,www.republicservices.com,562920,MRF, ,CA
+-117.871218993268,33.8502350048396,"Republic Services, Inc.","2775 E Gretta Ln, Anaheim, CA, 928062416",Orange,(714) 470-5635, ,www.republicservices.com,562920,MRF, ,CA
+-86.104587989908,39.7548099932051,"Republic Services, Inc.","3617 Southeastern Ave, Indianapolis, IN, 462031530",Marion,(317) 356-5491, ,www.republicservices.com,562920,MRF, ,IN
+-81.8810899750707,28.0124139962777,"Republic Services, Inc.","3820 Maine Ave, Lakeland, FL, 338019757",Polk,(863) 665-1489, ,www.republicservices.com,562920,MRF, ,FL
+-90.2893460217348,38.5456080169164,"Republic Services, Inc.","4076 Bayless Ave. (Bella Villa), Saint Louis, MO, 63125", , , , ,562920,MRF, ,MO
+-91.6900079751805,41.9223094274859,"Republic Services, Inc.","5755 Willow Creek Dr SW, Cedar Rapids, IA, 524044310",Linn, , ,www.republicservices.com,562920,MRF, ,IA
+-93.2890079698008,45.034743009617,"Republic Services, Inc.","725 44th Ave N, Minneapolis, MN, 554121401", , , , ,562920,MRF, ,MN
+-120.132552031489,34.4809090134133,ReSource Center,"14470 Calle Real, Goleta, CA, 931179732",Santa Barbara,(805) 963-1852, , ,562920,MRF, ,CA
+-87.7886760364233,41.7093289977448,"Resource Management Enterprises, Inc.","9999 Anderson Ave, Chicago Ridge, IL, 604151256",Cook,(708) 425-8565, ,www.rmcrecycle.com,562920,MRF, ,IL
+-88.2382099927581,41.6952829815892,Resource Management Rockford LLC,"10244 Clow Creek Rd, Plainfield, IL, 605857529",Will,(708) 425-8565, , ,562920,MRF, ,IL
+-71.523071989195,41.8049259864749,Rhode Island Resource Recovery Corporation,"65 Shun Pike, Johnston, RI, 02919", , , , ,562920,MRF, ,RI
+-94.8658390039884,32.4383110005587,Rivers Recycling,"298 FM 1252 W, Kilgore, TX, 756625371", , , , ,562920,MRF, ,TX
+-74.813969030424,40.0319230044411,"Robert C. Shinn, Jr. Recycling Center","130 Hancock Lane, Mount Holly, NJ, 08060", , , , ,562920,MRF, ,NJ
+-74.1548510948556,41.1476049388999,Rockland County Solid Waste Management Authority,"420 Torne Valley Rd, Hillburn, NY, 109311237", , , , ,562920,MRF, ,NY
+-85.3087019758805,35.019164995765,Rock-Tenn Recycling,"2900 Home Dr, Chattanooga, TN, 37410", , , , ,562920,MRF, ,TN
+-111.963433023525,40.7500070197275,"Rocky Mountain Recycling, LLC","2950 W 900 S, Salt Lake City, UT, 841044532", , , , ,562920,MRF, ,UT
+-111.917901016734,40.7058069811696,"Rocky Mountain Recycling, LLC","3110 S 900 W, South Salt Lake, UT, 841192471", , , , ,562920,MRF, ,UT
+-113.559657015633,37.1231430150211,"Rocky Mountain Recycling, LLC","838 N 1080 E, St George, UT, 847703204", , , , ,562920,MRF, ,UT
+-95.7261059972113,39.1807250209063,Rolling Meadows,"7351 NW Highway 75, Topeka, KS, 66618", , , , ,562920,MRF, ,KS
+-85.2106562150831,34.2789554549198,Rome/Floyd Recycling Center,"412 Lavender Dr NW, Rome, GA, 301652262",Floyd,(706) 291-5266, ,www.romefloyd.com,562920,MRF, ,GA
+-157.810037032613,21.2881030008607,RRR Recycling,"3109 Waialae Ave, Honolulu, HI, 968161509",Honolulu,(808) 682-5600, ,www.rrrhi5.com,562920,MRF, ,HI
+-87.7063019609574,41.8051810058789,"RSI (Waste Management of Illinois, Inc.)","3301 W 48th Place, Chicago, IL, 60632", , , , ,562920,MRF, ,IL
+-84.1637309846299,39.7717419824432,Rumpke Waste & Recycling,"1932 E Monument Ave, Dayton, OH, 45402", , , , ,562920,MRF, ,OH
+-82.9931759941359,39.9890279862979,"Rumpke Waste, Inc.","1191 Fields Ave, Columbus, OH, 432016902", , , , ,562920,MRF, ,OH
+-84.4938619642024,39.1822229927324,"Rumpke Waste, Inc.","5535 Vine St, Cincinnati, OH, 452171003", , , , ,562920,MRF, ,OH
+-110.891544013699,32.1607649802048,Saguaro Environmental Ser,"5055 S Swan Rd, Tucson, AZ, 857062029",Pima,(520) 745-8820, , ,562920,MRF, ,AZ
+-111.787722203526,33.5045170324508,Salt River Landfill and MRF,"13602 E Beeline Hwy, Scottsdale, AZ, 85256",Maricopa,(480) 941-3427, ,www.saltriverlandfill.com,562920,MRF, ,AZ
+-117.055163018897,32.7363830025944,San Diego Recyling Inc,"6670 Federal Blvd, Lemon Grove, CA, 919451312",San Diego,(619) 287-7555, ,www.dumpsterrentalsandiegoca.net,562920,MRF, ,CA
+-120.651620999282,35.2391220187951,San Luis Garbage Co.,"4388 Old Santa Fe Rd, San Luis Obispo, CA, 93401", , , , ,562920,MRF, ,CA
+-122.336593001306,47.554608014205,Seadrunar Recycling LLC,"28 S Brandon St, Seattle, WA, 981342428", , , , ,562920,MRF, ,WA
+-74.0889039124324,40.6919985490755,Sims Group USA Holdings Corp,"1 Linden Ave, Jersey City, NJ, 07305", , , , ,562920,MRF, ,NJ
+-74.00806421135,40.6621526464179,Sims Municipal Recycling,"472 2nd Ave., Brooklyn, NY, 11232", , , , ,562920,MRF, ,NY
+-83.1872230037987,42.5393560121486,Socrra Recycling Center,"995 Coolidge Hwy, Troy, MI, 480847070", , , , ,562920,MRF, ,MI
+-86.7661479705787,35.4370200100528,Solid Waste & Recycling Hub,"611 Hawkins Dr, Lewisburg, TN, 370914442", , , , ,562920,MRF, ,TN
+-123.362679017411,39.4034670150856,"Solid Wastes of Willits, Inc.","350 Franklin Ave, Willits, CA, 954905108",Mendocino,(707) 459-0272, ,www.swowservices.com,562920,MRF, ,CA
+-81.0102761588203,33.9641251245637,Sonoco Recycling,"1132 Idlewilde Blvd, Columbia, SC, 29201", , , , ,562920,MRF, ,SC
+-77.9603939959595,34.2815220189661,Sonoco Recycling - New Hanover,"3002 US-421, Wilmington, NC, 28401", , , , ,562920,MRF, ,NC
+-78.5484000102376,35.7722160060761,Sonoco Recycling - Raleigh,"111 S Rogers Lane, Raleigh, NC, 27610", , , , ,562920,MRF, ,NC
+-122.262956604338,37.5049841868391,South Bayside Waste Management Authority,"610 Elm St Ste 202, San Carlos, CA, 940703070",San Mateo,(650) 802-3500, ,www.rethinkwaste.org,562920,MRF, ,CA
+-115.144264025215,36.2197720008995,Southern Nevada Recycling Center,"360 W Cheyenne Ave, North Las Vegas, NV, 890303941", , , , ,562920,MRF, ,NV
+-76.1661897023051,42.083762191275,"Southern Tier Recyclers, Inc.","5730 Route 434, Apalachin, NY, 137322431", , , , ,562920,MRF, ,NY
+-121.296803998433,37.947236983081,"Stockton Recycling, Inc.","401 S Lincoln St, Stockton, CA, 952033311",San Joaquin, , ,www.stocktonrecycles.com,562920,MRF, ,CA
+-88.6113719868526,42.6386650105187,"Strategic Materials, Inc.","1849 Hobbs Dr, Delavan, WI, 531152028", , , , ,562920,MRF, ,WI
+-91.3955242927481,44.5512079927653,Strum Recycling Center,"320 Birch St, Strum, WI, 547709239", , , , ,562920,MRF, ,WI
+-97.947446041716,38.0272919954859,Stutzman MRF,"315 W Blanchard Ave, South Hutchinson, KS, 67505", , , , ,562920,MRF, ,KS
+-105.989687330516,39.6040973280935,Summit County Resource Allocation Park (SCRAP),"639 Landfill Rd., Dillon, CO, 80435", , , , ,562920,MRF, ,CO
+-82.5290163711314,27.3694212722449,Sun Coast Sanitation Waste Processing Facility,"3971 Carmichael Ave, Sarasota, FL, 34234", , , , ,562920,MRF, ,FL
+-122.011289997963,37.4182179837572,Sunnyvale Recycling Ctr,"301 Carl Rd, Sunnyvale, CA, 940891012",Santa Clara,(408) 730-7262, ,www.recycling.insunnyvale.com,562920,MRF, ,CA
+-92.9954100181327,44.8451099939855,"Tennis Sanitation, LLC","720 4th St, Saint Paul, MN, 55071", , , , ,562920,MRF, ,MN
+-97.7548695230772,30.1026796060847,"Texas Disposal Systems, Inc.","12200 Carl Rd, Creedmoor, TX, 786102184", , , , ,562920,MRF, ,TX
+-76.2662670278299,36.7899870065927,TFC Recycling,"1958 Diamond Hill Rd, Chesapeake, VA, 23324", , , , ,562920,MRF, ,VA
+-89.0251449723845,42.7042230184676,The Peltz Group LLC,"340 Black Bridge Rd, Janesville, WI, 535450707", , , , ,562920,MRF, ,WI
+-77.3993430088271,37.3623279982072,Tidewater Fibre Corp.,"12206 Old Stage Rd, Chester, VA, 238362409", , , , ,562920,MRF, ,VA
+-76.5186588729352,42.4243370641137,Tompkins County Recycling LLC,"160 Commercial Ave, Ithaca, NY, 148505114", , , , ,562920,MRF, ,NY
+-75.8197000137622,40.2742659953769,"Totalrecycle, Inc.","1270 Lincoln Rd, Birdsboro, PA, 195081801", , , , ,562920,MRF, ,PA
+-88.5199560171552,43.2139239940856,Town of Ashippun Recycling Center,"W2522 Oak St, Ashippun, WI, 53003", , , , ,562920,MRF, ,WI
+-90.7852617611205,46.7830209052526,Town of La Pointe,"346 Big Bay Rd, La Pointe, WI, 54850", , , , ,562920,MRF, ,WI
+-121.417699959789,37.6741809806201,"Tracy Material Recovery and Solid Waste Transfer, Inc.","30703 S Macarthur Dr, Tracy, CA, 953779170",San Joaquin,(209) 832-2355, ,www.tracymaterialrecovery.com,562920,MRF, ,CA
+-80.0108130369385,40.7046219896082,Tri County Recycling,"120 Hutchman Rd, Mars, PA, 160463704", , , , ,562920,MRF, ,PA
+-122.034078967773,37.5964560115693,Tri-City Economic Development Corporation,"33377 Western Ave, Union City, CA, 945872210",Alameda,(510) 429-8030, ,www.tri-ced.org,562920,MRF, ,CA
+-90.6547669929707,46.3240329810996,Tri-M Sanitary-Recycling,"415 Olson Rd, Mellen, WI, 545469012", , , , ,562920,MRF, ,WI
+-91.3522699993813,44.3717990090939,Tri-R Project,"W20298 Wisconsin 121, Whitehall, WI, 54773", , , , ,562920,MRF, ,WI
+-87.5689410080989,37.9916790071836,Tri-State Resource Recovery,"1511 Harriet St, Evansville, IN, 47710", , , , ,562920,MRF, ,IN
+-95.9768789615374,36.1712170188181,Tulsa Recycle & Transfer Inc,"1150 N Peoria Ave, Tulsa, OK, 741064901", , , , ,562920,MRF, ,OK
+-73.7985101999999,42.8504227000002,Twin Bridges Recycling Center,"417 New York 146, Halfmoon, NY, 12065", , , , ,562920,MRF, ,NY
+-107.038065030723,40.4716889841816,Twin Enviro Services,"20650 County Rd 205, Steamboat Springs, CO, 80487", , , , ,562920,MRF, ,CO
+-73.9678527014181,41.9760442161821,Ulster County Resource Recovery Agency,"999 Flatbush Rd, Kingston, NY, 12401", , , , ,562920,MRF, ,NY
+-111.835820978431,33.3216970010297,"United Fibers, LLC","390 E Ray Rd, Chandler, AZ, 852253304",Maricopa,(480) 726-0001, ,www.unitedfibers.com,562920,MRF, ,AZ
+-122.439674987662,38.471710015308,Upper Valley Disposal & Recycling,"1285 Whitehall Ln, St Helena, CA, 94574", , , , ,562920,MRF, ,CA
+-115.530381005039,32.7875530127378,Valley Environmental Services,"702 E Heil Ave, El Centro, CA, 922434612",Imperial,(760) 336-0044, , ,562920,MRF, ,CA
+-117.295099900707,34.5608973531689,Victor Valley Materials Recovery Facility,"17000 Abbey Ln, Victorville, CA, 923941604",San Bernardino,(760) 241-1284, ,www.urecycle.org,562920,MRF, ,CA
+-87.2576829731733,38.016218998477,Warrick County,"1111 S Pelzer Rd FL 2, Boonville, IN, 476019369",Warrick,(812) 897-6155, ,www.warrickcounty.gov,562920,MRF, ,IN
+-111.931694025142,41.1114050127154,Wasatch Integrated Waste Management District,"1997 E 3500 N, Layton, UT, 840404943", , , , ,562920,MRF, ,UT
+-90.5580199652155,41.5802800010799,Waste Commission of Scott County,"5640 Carey Ave, Davenport, IA, 528072635",Scott,(563) 386-9575, ,www.wastecom.com,562920,MRF, ,IA
+-82.6599710353928,27.7831049905081,Waste Connections,"1190 20th St. N., St., Saint Petersburg, FL, 33713", , , , ,562920,MRF, ,FL
+-120.815211022652,38.6987730063027,Waste Connections El Dorado MRF,"4100 Throwita Way, Placerville, CA, 95667", , , , ,562920,MRF, ,CA
+-80.258150007696,25.8111359951139,"Waste Connections of Florida, Inc.","3840 NW 37th CT, Miami, FL, 331424208",Miami-Dade,(407) 261-5000, , ,562920,MRF, ,FL
+-96.6015689617961,33.1694370057293,Waste Connections Of Texas - Mckinney,"2138 Country Ln, McKinney, TX, 75069", , , , ,562920,MRF, ,TX
+-73.7691564177019,42.6237745595275,"Waste Connections Us, Inc.","865 S Pearl St, Albany, NY, 122021025", , , , ,562920,MRF, ,NY
+-74.1426068436646,40.7252704696371,Waste Management,"150 St. Charles St., Newark, NJ, 07105", , , , ,562920,MRF, ,NJ
+-117.932493974423,34.1149090203061,Waste Management,"1501 W. Gladstone Ave, Azusa, CA, 91702", , , , ,562920,MRF, ,CA
+-117.854163999601,33.8218100014244,Waste Management,"2050 N. Glassell St, Orange, CA, 92865", , , , ,562920,MRF, ,CA
+-80.4201010337193,25.9967990061255,Waste Management,"20701 Pembroke Rd., Pembroke Pines, FL, 33029", , , , ,562920,MRF, ,FL
+-117.499573973474,47.628433475761,Waste Management,"2902 South Geiger Blvd, Spokane, WA, 99224", , , , ,562920,MRF, ,WA
+-104.944597959958,39.7831549913545,Waste Management,"3600 E. 48th Ave, Denver, CO, 80216", , , , ,562920,MRF, ,CO
+-75.024649004929,40.0239440193512,Waste Management,"5201 Bleigh Ave, Philadelphia, PA, 19136", , , , ,562920,MRF, ,PA
+-121.394193582886,38.5267793706279,Waste Management,"8491 Fruitridge Rd, Sacramento, CA, 95826", , , , ,562920,MRF, ,CA
+-88.0760901552047,43.2081645369568,Waste Management - Germantown,"W132N10487 Grant Dr, Germantown, WI, 53022", , , , ,562920,MRF, ,WI
+-84.5935610144368,33.7097190198068,Waste Management Gateway MRF,"1625 Westgate Pkwy, SW, Atlanta, GA, 30336", , , , ,562920,MRF, ,GA
+-82.6893249632275,27.8894809809931,Waste Management Inc. of Florida,"12950 40th St N, Clearwater, FL, 337624203",Pinellas,(727) 573-1358, ,www.collierrecyclesright.com,562920,MRF, ,FL
+-80.0851699896554,26.7026169862146,Waste Management Inc. of Florida,"1764 N Congress Ave, West Palm Beach, FL, 334095189",Palm Beach,(561) 932-0020, ,www.collierrecyclesright.com,562920,MRF, ,FL
+-112.470075987498,33.6748099856428,Waste Management Northwest Regional Landfill and MRF,"19401 W Deer Valley Rd, Surprise, AZ, 85387", , , , ,562920,MRF, ,AZ
+-84.7639269683342,43.6238700121752,Waste Management of Central MI Inc,"4208 E River Rd, Mount Pleasant, MI, 488588423", , , , ,562920,MRF, ,MI
+-104.969704023083,39.7949179866328,"Waste Management of Colorado, Inc.","5395 Franklin St, Denver, CO, 802166213",Denver,(303) 296-4124, ,www.wcdenver.com,562920,MRF, ,CO
+-80.3658729700212,27.3949900164246,Waste Management of Florida,"3890 Selvitz Road, Fort Pierce, FL, 34981", , , , ,562920,MRF, ,FL
+-88.0287161363841,42.312146651883,"Waste Management of Illinois, Inc.","30869 N Rte 83, Grayslake, IL, 60030",Lake,(847) 548-1755, ,www.villageoflombard.org,562920,MRF, ,IL
+-87.7186589817138,41.8306559984715,"Waste Management of Illinois, Inc.","3757 W 34th St, Chicago, IL, 606235004",Cook,(773) 247-9850, ,www.villageoflombard.org,562920,MRF, ,IL
+-87.841153036729,41.7795040094199,"Waste Management of Illinois, Inc.","6120 River Road, Hodgkins, IL, 60525", , , , ,562920,MRF, ,IL
+-76.5873390140885,39.9559260066394,"Waste Management of New Jersey, Inc.","4455 Mount Pisgah Rd, York, PA, 174068239", , , , ,562920,MRF, ,PA
+-72.901398373859,40.8002857261301,"Waste Management of New York, L.L.C.","352 Horseblock Rd, Brookhaven, NY, 117199561", , , , ,562920,MRF, ,NY
+-76.1982047167598,43.1283045714388,"Waste Management of New York, L.L.C.","4550 Steelway Blvd S, Liverpool, NY, 130903514", , , , ,562920,MRF, ,NY
+-97.0774950166593,32.7443679807449,"Waste Management of Texas, Inc.","1915 Meridian St, Arlington, TX, 760117803", , , , ,562920,MRF, ,TX
+-77.4467539868535,38.9922570059972,"Waste Management of Virginia, Inc.","1505 Moran Rd, Sterling, VA, 201669309", , , , ,562920,MRF, ,VA
+-93.2347349791018,44.996726007665,Waste Management Recycle America - Twin Cities,"1800 Broadway St Northeast, Minneapolis, MN, 55413", , , , ,562920,MRF, ,MN
+-76.7649790350184,39.1753619858881,Waste Management Recycle America Alliance,"7175 Kit Kat Rd, Elkridge, MD, 210756419", , , , ,562920,MRF, ,MD
+-80.8292209733413,28.392862001617,Waste Management Single Stream Recyclers,"2250 Adamson Road, Cocoa, FL, 32926", , , , ,562920,MRF, ,FL
+-87.9400930218119,42.9801339809692,"Waste Management, Inc.","2101 W Morgan Ave, Milwaukee, WI, 532211534", , , , ,562920,MRF, ,WI
+-94.7863280190091,39.0606180061868,"Waste Management, Inc.","2404 S 88th St, Kansas City, KS, 661111750",Wyandotte,(913) 441-9660, ,www.wm.com,562920,MRF, ,KS
+-81.9904100252271,29.0782130086229,Waste Pro USA - Ocala,"408 Cypress Rd, Ocala, FL, 34472", , , , ,562920,MRF, ,FL
+-82.4077412124759,27.3403405944539,WCA of Florida,"8001 Fruitville Road, Sarasota, FL, 34240", , , , ,562920,MRF, ,FL
+-84.5260189680969,33.6131340142402,Welcome All Transfer Station LLC,"5225 Welcome All Rd SW, College Park, GA, 303492553",Fulton,(404) 761-9464, , ,562920,MRF, ,GA
+-122.368419003844,37.9618279905812,"West County Resource Recovery, Inc","101 Pittsburg Ave, Richmond, CA, 948011201",Contra Costa,(510) 231-4200, ,www.recyclemore.com,562920,MRF, ,CA
+-88.5981148748469,35.446378102151,West TN Recycling Hub,"315 Talley Store Rd, Henderson, TN, 38340", , , , ,562920,MRF, ,TN
+-122.73819697217,45.653996004562,West Vancouver Materials Recovery Center,"6601 NW Old Lower River Rd, Vancouver, WA, 98660", , , , ,562920,MRF, ,WA
+-121.344643040255,38.8374619879003,Western Placer Waste Management Authority,"3195 Athens Ave., Lincoln, CA, 95648", , , , ,562920,MRF, ,CA
+-84.0201039724146,42.3564850130847,Western Washtenaw Recycling Authority Inc,"8025 Werkner Rd, Chelsea, MI, 481189145", , , , ,562920,MRF, ,MI
+-84.5809969606721,33.9110960037966,WestRock,"1775 County Services Pkwy, Marietta, GA, 30008", , , , ,562920,MRF, ,GA
+-83.9956451700384,33.9628928320848,WestRock,"384 Maltbie St, Lawrenceville, GA, 30046", , , , ,562920,MRF, ,GA
+-122.560301973745,45.4766760046952,"WestRock CP, LLC","6328 SE 100th Ave, Portland, OR, 97266", , , , ,562920,MRF, ,OR
+-85.7093950015071,38.1531670168756,WestRock Recycling,"2000 Industrial Blvd, Louisville, KY, 40219", , , , ,562920,MRF, ,KY
+-84.2472480164129,33.8215349911812,WestRock Recycling,"3434 Montreal Indus Way, Tucker, GA, 300845210",DeKalb,(770) 939-1775, , ,562920,MRF, ,GA
+-83.952877001815,35.96655898074,"Westrock Rkt, LLC","1323 Proctor St, Knoxville, TN, 379215736", , , , ,562920,MRF, ,TN
+-97.5099582213489,30.5973356871854,Wilco Recycling,"1551 County Rd 394, Hutto, TX, 78634", , , , ,562920,MRF, ,TX
+-72.2400619984791,41.7210269913641,"Willimantic Waste Paper Co., Inc.","1590 West Main St, Willimantic, CT, 062261128",Windham,(860) 450-7253, ,www.williwaste.com,562920,MRF, ,CT
+-71.2711936194781,42.5753711222557,WM Billerica MRF,"72 Salem Road, Billerica, MA, 01862", , , , ,562920,MRF, ,MA
+-122.403386040779,47.2640899928586,WM JMK Fibers Recycling Center,"1440 Port of Tacoma R, Tacoma, WA, 98421", , , , ,562920,MRF, ,WA
+-78.8043949840611,35.8931309943521,WM Recycle America - Morrisville,"10411 Globe Rd, Morrisville, NC, 27560", , , , ,562920,MRF, ,NC
+-80.1498200279427,36.041874990818,WM Recycle America - Winston-Salem,"280 Business Park Drive, Winston Salem, NC, 27107", , , , ,562920,MRF, ,NC
+-122.151932968829,47.7657650028196,"WM Recycle America, L.L.C.","14020 Ne 190th St, Woodinville, WA, 980728470", , , , ,562920,MRF, ,WA
+-88.4396260364166,44.2277200027498,"WM Recycle America, L.L.C.","1420 Earl St, Menasha, WI, 549521417", , , , ,562920,MRF, ,WI
+-97.6145259838618,35.4704910029986,"WM Recycle America, L.L.C.","5519 NW 4th St, Oklahoma City, OK, 731276604", , , , ,562920,MRF, ,OK
+-82.3984229668967,28.0042949914953,"WM Recycle America, L.L.C.","6210 N 53rd St, Tampa, FL, 336104022",Hillsborough,(813) 247-7397, , ,562920,MRF, ,FL
+-86.7168460351958,36.1635660175996,WM River Hills Recycling Center,"208 River Hills Dr, Nashville, TN, 37210", , , , ,562920,MRF, ,TN
+-72.6093783753968,42.1148798391757,WM RRT Springfield MRF,"84 Birnie Avenue, Springfield, MA, 01104", , , , ,562920,MRF, ,MA
+-111.98684401437,40.5942770003315,WM Salt Lake Commercial Recycling Center,"8652 4000 W, West Jordan, UT, 84088", , , , ,562920,MRF, ,UT
+-81.1976829828684,34.9801469850262,York County Solid Waste Collection & Recycling,"220 Public Works Rd, York, SC, 29745", , , , ,562920,MRF, ,SC
+-70.7746351746724,41.80711311838,"ZWS Waste Solutions, LLCA","50 Cranberry Highway, West Wareham, MA, 02576", , , , ,562920,MRF, ,MA
