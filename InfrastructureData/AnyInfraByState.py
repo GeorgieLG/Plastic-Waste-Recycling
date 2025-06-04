@@ -29,6 +29,7 @@ plt.title('Infrastructure Data by State')
 plt.xlabel('State')
 plt.ylabel('Value')  # Replace 'Value' with the actual column name you want to plot
 plt.show()
+plt.savefig('InfrastructureData/InfrastructureData_by_state.pdf')
 
 print("State counts:", csvtodict('InfrastructureData/InfrastructureData_cleaned.csv'))
 nodups = list(set(x))  # Remove duplicates from the state list
