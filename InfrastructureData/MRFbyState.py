@@ -25,7 +25,7 @@ f.set_figwidth(15)
 plt.bar(x, y)
 plt.title('Number of MRFs by State')
 plt.xlabel('State')
-plt.ylabel('# of Sites')  # Replace 'Value' with the actual column name you want to plot
+plt.ylabel('# of Sites')
 plt.savefig('InfrastructureData/MRFdatabystate.pdf')
 plt.show()
 

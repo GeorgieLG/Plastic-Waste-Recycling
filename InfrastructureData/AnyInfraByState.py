@@ -24,7 +24,7 @@ f.set_figwidth(15)
 
 plt.title('Number of Recyling Centers by State')
 plt.xlabel('State')
-plt.ylabel('# of Sites')  # Replace 'Value' with the actual column name you want to plot
+plt.ylabel('# of Sites') 
 plt.bar(x, y)
 plt.savefig('InfrastructureData/InfrastructureDatabystate.pdf')
 plt.show()
