@@ -33,5 +33,6 @@ def getState(input_file, output_file):
                 row['State'] = state
                 writer.writerow(row)
 
+
 #removeDuplicateRows('InfrastructureData/InfrastructureData.csv', 'InfrastructureData/InfrastructureData_cleaned.csv')
-getState('InfrastructureData/InfrastructureData.csv', 'InfrastructureData/InfrastructureData_cleaned.csv')
+#getState('InfrastructureData/InfrastructureData.csv', 'InfrastructureData/InfrastructureData_cleaned.csv')
