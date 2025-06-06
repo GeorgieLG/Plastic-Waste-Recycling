@@ -13,6 +13,14 @@ def csvtodict(filename):
                 statecount[state] += 1
             else:
                 statecount[state] = 1
+                
+    with open('InfrastructureData/2020PopulationData.csv', 'r', newline='') as popfile:
+        popreader = csv.reader(popfile)
+        next(popreader)
+        for row in popreader:
+            state = row[4]
+            if state not in statecount:
+                statecount[state] = 0
     return statecount
 
 # def main():

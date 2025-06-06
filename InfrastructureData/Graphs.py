@@ -4,6 +4,8 @@ import AnyInfraByState
 import MostCommonFacilities
 import AllInfravsPopDensity
 import ResidentPopvsInfra
+import DensityvsMRF
+import ResidentPopvsMRF
 
 def plotInfraByState():
     data = AnyInfraByState.csvtodict('InfrastructureData/InfrastructureData_cleaned.csv')
@@ -85,8 +87,29 @@ def plotPopvsInfra():
     plt.savefig('InfrastructureData/ResidentPopvsInfra.pdf')
     plt.show()
 
+def plotDensityvsMRF():
+    densityList, MRFList = DensityvsMRF.getArrays()
+
+    plt.scatter(densityList, MRFList)
+    plt.title('Population Density vs. Number of MRFs')
+    plt.xlabel('Population Density (people per square mile)')
+    plt.ylabel('Number of MRFs')
+    plt.savefig('InfrastructureData/PopulationDensityvsMRF.pdf')
+    plt.show()
+
+def plotPopvsMRF():
+    popList, MRFList = ResidentPopvsMRF.getArrays()
+    plt.scatter(popList, MRFList)
+    plt.title('Resident Population vs. Number of MRFs')
+    plt.xlabel('Resident Population')
+    plt.ylabel('Number of MRFs')
+    plt.savefig('InfrastructureData/ResidentPopvsMRF.pdf')
+    plt.show()
+
 #plotInfraByState() 
 #plotMRFbyState()
 #plotMostCommonFacilities()
 #plotDensityvsInfra()
-plotPopvsInfra()
+#plotPopvsInfra()
+plotDensityvsMRF()
+plotPopvsMRF()
