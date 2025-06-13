@@ -13,4 +13,4 @@ def getTotalYearlyEmissions(file_path):
                 total_emissions[header[i]] += emissions
     return total_emissions
 
-print(getTotalYearlyEmissions('InfrastructureData/LongTermEmissionsData.csv'))
+#print(getTotalYearlyEmissions('InfrastructureData/LongTermEmissionsData.csv'))

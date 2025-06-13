@@ -213,17 +213,81 @@ def plotYearlyEmissions():
     plt.savefig('InfrastructureData/TotalYearlyEmissions.pdf')
     plt.show()
 
+def plotRecyclingPercentagevsInfra():
+    recyclingData = GetRecyclingPercentagebyState.get_recycling_percentage_by_state('InfrastructureData/RecyclingPercentageByState.csv')
+    infraData = AnyInfraByState.csvtodict('InfrastructureData/InfrastructureData_cleaned.csv')
+
+    recyclingDataNoOutliers = {}
+    infraDataNoOutliers = {}
+    for key in infraData:
+        if infraData[key] < 100:
+            infraDataNoOutliers[key] = infraData[key]
+            recyclingDataNoOutliers[key] = recyclingData[key]
+
+    recyclingDataSortedbyKey = {k: v for k, v in sorted(recyclingDataNoOutliers.items(), key=lambda x: x[0])}
+    recyclingList = list(recyclingDataSortedbyKey.values())
+
+    infraDataSortedbyKey = {k: v for k, v in sorted(infraDataNoOutliers.items(), key=lambda x: x[0])}
+    infraList = list(infraDataSortedbyKey.values())
+
+    z = np.polyfit(infraList, recyclingList, 1)
+    p = np.poly1d(z)
+
+    # print("Recycling Data Sorted by Key:", recyclingDataSortedbyKey)
+    # print("\n\nInfra Data Sorted by Key:", infraDataSortedbyKey)
+
+    plt.scatter(infraList, recyclingList)
+    plt.plot(infraList, p(infraList), "r--")
+    plt.title('Recycling Percentage vs. Number of Recycling Centers')
+    plt.xlabel('Number of Recycling Centers')
+    plt.ylabel('Recycling Percentage (%)')
+    plt.savefig('InfrastructureData/RecyclingPercentagevsInfra.pdf')
+    plt.show()
+
+def plotRecyclingPercentagevsMRF():
+    recyclingData = GetRecyclingPercentagebyState.get_recycling_percentage_by_state('InfrastructureData/RecyclingPercentageByState.csv')
+    MRFData = MRFbyState.csvtodict('InfrastructureData/MRFdata.csv')
+
+    recyclingDataNoOutliers = {}
+    MRFDataNoOutliers = {}
+
+    for key in MRFData:
+        if MRFData[key] < 30:
+            MRFDataNoOutliers[key] = MRFData[key]
+            recyclingDataNoOutliers[key] = recyclingData[key]
+
+    MRFDataSortedbyKey = {k: v for k, v in sorted(MRFDataNoOutliers.items(), key=lambda x: x[0])}
+    MRFList = list(MRFDataSortedbyKey.values())
+
+    recyclingDataSortedbyKey = {k: v for k, v in sorted(recyclingDataNoOutliers.items(), key=lambda x: x[0])}
+    recyclingList = list(recyclingDataSortedbyKey.values())
+
+    z = np.polyfit(MRFList, recyclingList, 1)
+    p = np.poly1d(z)
+
+    print("Recycling Data Sorted by Key:", recyclingDataSortedbyKey)
+    print("\n\nMRF Data Sorted by Key:", MRFDataSortedbyKey)
+
+    plt.scatter(MRFList, recyclingList)
+    plt.plot(MRFList, p(MRFList), "r--")
+    plt.title('Recycling Percentage vs. Number of MRFs')
+    plt.xlabel('Number of MRFs')
+    plt.ylabel('Recycling Percentage (%)')
+    plt.savefig('InfrastructureData/RecyclingPercentagevsMRF.pdf')
+    plt.show()
 
 
-#plotInfraByState() 
-#plotMRFbyState()
+# plotInfraByState()
+# plotMRFbyState()
 # plotMostCommonFacilities()
 # plotDensityvsInfra()
 # plotPopvsInfra()
 # plotDensityvsMRF()
 # plotPopvsMRF()
-#plotStateRecyclingPercentage()
-#plotEmissionsByState()
-#plotEmissionsvsinfra()
-#plotEmissionsvsMRF()
-plotYearlyEmissions()
+# plotStateRecyclingPercentage()
+# plotEmissionsByState()
+# plotEmissionsvsinfra()
+# plotEmissionsvsMRF()
+# plotYearlyEmissions()
+plotRecyclingPercentagevsInfra()
+#plotRecyclingPercentagevsMRF()
