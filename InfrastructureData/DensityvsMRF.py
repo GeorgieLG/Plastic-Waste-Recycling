@@ -26,9 +26,7 @@ def getArrays():
     MRFList = list(MRFObj)
     return densityList, MRFList
 
-densityList, MRFList = getArrays()
-print("Population Density List:", densityList, "Length:", len(densityList), "\n")
-print("MRF List:", MRFList, "Length:", len(MRFList), "\n")
+
 
 
 

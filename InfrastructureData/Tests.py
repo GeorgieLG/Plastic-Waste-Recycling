@@ -37,4 +37,4 @@ def findUnlistedStates(input_file):
         return retList
 
 #checkStates('InfrastructureData/InfrastructureData_cleaned.csv')
-print(findUnlistedStates('InfrastructureData/InfrastructureData_cleaned.csv'))
+#print(findUnlistedStates('InfrastructureData/InfrastructureData_cleaned.csv'))

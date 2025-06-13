@@ -1,0 +1,51 @@
+State,StateName,RecyclingRate%
+AL,Alabama,22
+AK,Alaska,16
+AZ,Arizona,37
+AR,Arkansas,28
+CA,California,50
+CO,Colorado,29
+CT,Connecticut,58
+DE,Delaware,53
+FL,Florida,36
+GA,Georgia,36
+HA,Hawaii,40
+ID,Idaho,36
+IL,Illinois,30
+IN,Indiana,37
+IA,Iowa,53
+KS,Kansas,33
+KY,Kentucky,23
+LA,Louisiana,27
+ME,Maine,67
+MD,Maryland,53
+MA,Massachusetts,48
+MI,Michigan,30
+MN,Minnesota,51
+MS,Mississippi,17
+MO,Missouri,43
+MT,Montana,33
+NE,Nebraska,43
+NV,Nevada,38
+NH,New Hampshire,40
+NJ,New Jersey,56
+NM,New Mexico,30
+NY,New York,50
+NC,North Carolina,50
+ND,North Dakota,31
+OH,Ohio,23
+OK,Oklahoma,29
+OR,Oregon,60
+PA,Pennsylvania,42
+RI,Rhode Island,50
+SC,South Carolina,35
+SD,South Dakota,33
+TN,Tennessee,22
+TX,Texas,24
+UT,Utah,38
+VT,Vermont,51
+VA,Virginia,36
+WA,Washington,46
+WV,West Virginia,29
+WI,Wisconsin,38
+WY,Wyoming,33
