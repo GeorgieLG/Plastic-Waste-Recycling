@@ -9,6 +9,7 @@ import ResidentPopvsMRF
 import GetRecyclingPercentagebyState
 import GetEmissionsbyYear
 import numpy as np
+import GetTotalEmissions
 
 def plotInfraByState():
     data = AnyInfraByState.csvtodict('InfrastructureData/InfrastructureData_cleaned.csv')
@@ -195,6 +196,24 @@ def plotEmissionsvsMRF():
     plt.savefig('InfrastructureData/EmissionsvsMRF.pdf')
     plt.show()
 
+def plotYearlyEmissions():
+    data = GetTotalEmissions.getTotalYearlyEmissions('InfrastructureData/LongTermEmissionsData.csv')
+    
+    x = data.keys()  # Get the years from the dictionary
+    y = data.values()  # Get the emissions for each year
+
+    f = plt.figure()
+    f.set_figwidth(30)
+    f.set_figheight(8)
+    f.subplots_adjust(left=.05, bottom=None, right=.95, top=None, wspace=None, hspace=None)
+    plt.plot(x, y, marker='o', linestyle='-', color='b')
+    plt.title('Total Yearly Emissions')
+    plt.xlabel('Year')
+    plt.ylabel('Emissions (million metric tons)')
+    plt.savefig('InfrastructureData/TotalYearlyEmissions.pdf')
+    plt.show()
+
+
 
 #plotInfraByState() 
 #plotMRFbyState()
@@ -206,4 +225,5 @@ def plotEmissionsvsMRF():
 #plotStateRecyclingPercentage()
 #plotEmissionsByState()
 #plotEmissionsvsinfra()
-plotEmissionsvsMRF()
+#plotEmissionsvsMRF()
+plotYearlyEmissions()
