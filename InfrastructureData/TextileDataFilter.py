@@ -1,7 +1,6 @@
 import csv
 
-#Creates (or modifies) a CSV file to only include rows that have 'MRF' in the 'Type' column
-def filterMRFdata(input_file, output_file):
+def filterTextileData(input_file, output_file):
     with open(input_file, 'r', newline='') as infile:
         with open(output_file, 'w', newline='') as outfile:
             reader = csv.reader(infile)
@@ -9,7 +8,8 @@ def filterMRFdata(input_file, output_file):
             header = next(reader)
             writer.writerow(header)
             for row in reader:
-                if row[9] == "MRF":
+                if row[9] == "Textiles Recycling Facility":
                     writer.writerow(row)
 
-#filterMRFdata('InfrastructureData/InfrastructureData_cleaned.csv', 'InfrastructureData/MRFdata.csv')
+
+#filterTextileData('InfrastructureData/InfrastructureData_cleaned.csv', 'InfrastructureData/TextileData.csv')

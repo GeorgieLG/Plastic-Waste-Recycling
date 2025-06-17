@@ -10,6 +10,7 @@ import GetRecyclingPercentagebyState
 import GetEmissionsbyYear
 import numpy as np
 import GetTotalEmissions
+import TextilesVsArtReg
 
 def plotInfraByState():
     data = AnyInfraByState.csvtodict('InfrastructureData/InfrastructureData_cleaned.csv')
@@ -166,6 +167,7 @@ def plotEmissionsvsinfra():
 
     # print("Emissions Data Sorted by Key:", emissionsDataSortedbyKey)
     # print("\nInfra List:", infraList)
+
     z = np.polyfit(infraList, emissionsList, 1)
     p = np.poly1d(z)
 
@@ -276,6 +278,21 @@ def plotRecyclingPercentagevsMRF():
     plt.savefig('InfrastructureData/RecyclingPercentagevsMRF.pdf')
     plt.show()
 
+def plotTextilesByState():
+    data = TextilesVsArtReg.csvtodict('InfrastructureData/TextileData.csv')
+    dataSortedbyValue = {k: v for k, v in sorted(data.items(), key=lambda x: x[1], reverse=True)}
+    x = dataSortedbyValue.keys()  # Get the states from the dictionary
+    y = dataSortedbyValue.values()  # Get the counts for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.yticks(np.arange(0,20,2))
+    plt.bar(x, y)
+    plt.title('Number of Textile Recycling Centers by State')
+    plt.xlabel('State')
+    plt.ylabel('# of Textile Recycling Centers')
+    plt.savefig('InfrastructureData/TextileRecyclingCentersByState.pdf')
+    plt.show()
+
 
 # plotInfraByState()
 # plotMRFbyState()
@@ -286,8 +303,9 @@ def plotRecyclingPercentagevsMRF():
 # plotPopvsMRF()
 # plotStateRecyclingPercentage()
 # plotEmissionsByState()
-# plotEmissionsvsinfra()
+#plotEmissionsvsinfra()
 # plotEmissionsvsMRF()
 # plotYearlyEmissions()
-plotRecyclingPercentagevsInfra()
+#plotRecyclingPercentagevsInfra()
 #plotRecyclingPercentagevsMRF()
+plotTextilesByState()
