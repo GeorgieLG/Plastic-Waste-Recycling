@@ -15,5 +15,3 @@ def mostCommonFacilities(input_file):
     sorted_facilities = {k: v for k, v in sorted(facCount.items(), key=lambda x: x[1], reverse=True)}
     return sorted_facilities
 
-#print(mostCommonFacilities('InfrastructureData/InfrastructureData_cleaned.csv'))
-

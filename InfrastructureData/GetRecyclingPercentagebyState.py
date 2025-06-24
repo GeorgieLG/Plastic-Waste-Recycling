@@ -15,5 +15,3 @@ def get_recycling_percentage_by_state(file_path):
     
     return recycling_data
 
-#print(get_recycling_percentage_by_state('InfrastructureData/RecyclingPercentageByState.csv'))
-

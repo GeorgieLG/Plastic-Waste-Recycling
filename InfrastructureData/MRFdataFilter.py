@@ -11,5 +11,3 @@ def filterMRFdata(input_file, output_file):
             for row in reader:
                 if row[9] == "MRF":
                     writer.writerow(row)
-
-filterMRFdata('InfrastructureData/InfrastructureData_cleaned.csv', 'InfrastructureData/MRFdata.csv')

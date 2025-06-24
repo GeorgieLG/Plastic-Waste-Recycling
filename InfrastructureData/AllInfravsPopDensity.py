@@ -15,13 +15,9 @@ def getPopDensity(filename):
                 statePopDensity[state] = round(float(row[3]), 3)
     return {k: v for k, v in sorted(statePopDensity.items(), key=lambda x: x[0])} #Sort by state abbrev in alphabetical order
 
-#print(getPopDensity('InfrastructureData/2020PopulationData.csv'))
-
-#print({k: v for k, v in sorted(AnyInfraByState.csvtodict('InfrastructureData/InfrastructureData_cleaned.csv').items(), key=lambda x: x[0])})
-
 def getArrays():
-    density = getPopDensity('InfrastructureData/2020PopulationData.csv')
-    infra = {k: v for k, v in sorted(AnyInfraByState.csvtodict('InfrastructureData/InfrastructureData_cleaned.csv').items(), key=lambda x: x[0])}
+    density = getPopDensity('InfrastructureData/CSVData/2020PopulationData.csv')
+    infra = {k: v for k, v in sorted(AnyInfraByState.csvtodict('InfrastructureData/CSVData/InfrastructureData_cleaned.csv').items(), key=lambda x: x[0])}
 
     densObj = density.values()
     infraObj = infra.values()
@@ -29,9 +25,3 @@ def getArrays():
     densityList = list(densObj)
     infraList = list(infraObj)
     return densityList, infraList
-
-# densityList, infraList = getArrays()
-
-# print("Population Density List:", densityList, "Length:", len(densityList), "\n")
-# print("Infrastructure List:", infraList, "Length:", len(infraList), "\n")
-

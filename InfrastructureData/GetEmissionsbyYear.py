@@ -14,7 +14,3 @@ def get_emissions_by_year(file_path, year):
             emissions_data[state] = emissions
         sorted_data = {k: v for k, v in sorted(emissions_data.items(), key=lambda x: x[0])}
     return sorted_data
-
-    
-
-#print(get_emissions_by_year('InfrastructureData/LongTermEmissionsData.csv', '2020'))

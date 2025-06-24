@@ -16,8 +16,8 @@ def getPopulation(filename):
 
 
 def getArrays():
-    population = getPopulation('InfrastructureData/2020PopulationData.csv')
-    mrf = {k: v for k, v in sorted(MRFbyState.csvtodict('InfrastructureData/MRFdata.csv').items(), key=lambda x: x[0])}
+    population = getPopulation('InfrastructureData/CSVData/2020PopulationData.csv')
+    mrf = {k: v for k, v in sorted(MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv').items(), key=lambda x: x[0])}
 
     popObj = population.values()
     mrfObj = mrf.values()

@@ -15,8 +15,8 @@ def getPopulation(filename):
     return {k: v for k, v in sorted(statePopulation.items(), key=lambda x: x[0])}  # Sort by state abbrev in alphabetical order
 
 def getArrays():
-    population = getPopulation('InfrastructureData/2020PopulationData.csv')
-    infra = {k: v for k, v in sorted(AnyInfraByState.csvtodict('InfrastructureData/InfrastructureData_cleaned.csv').items(), key=lambda x: x[0])}
+    population = getPopulation('InfrastructureData/CSVData/2020PopulationData.csv')
+    infra = {k: v for k, v in sorted(AnyInfraByState.csvtodict('InfrastructureData/CSVData/InfrastructureData_cleaned.csv').items(), key=lambda x: x[0])}
 
     popObj = population.values()
     infraObj = infra.values()

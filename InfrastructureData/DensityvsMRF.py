@@ -16,8 +16,8 @@ def getPopDensity(filename):
     return {k: v for k, v in sorted(statePopDensity.items(), key=lambda x: x[0])} #Sort by state abbrev in alphabetical order
 
 def getArrays():
-    density = getPopDensity('InfrastructureData/2020PopulationData.csv')
-    MRF = {k: v for k, v in sorted(MRFbyState.csvtodict('InfrastructureData/MRFdata.csv').items(), key=lambda x: x[0])}
+    density = getPopDensity('InfrastructureData/CSVData/2020PopulationData.csv')
+    MRF = {k: v for k, v in sorted(MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv').items(), key=lambda x: x[0])}
 
     densObj = density.values()
     MRFObj = MRF.values()

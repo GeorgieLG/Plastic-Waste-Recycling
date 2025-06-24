@@ -1,0 +1,51 @@
+State,StateName,ART Status
+AL,Alabama,SW
+AK,Alaska,MAN
+AZ,Arizona,MAN
+AR,Arkansas,SW
+CA,California,SW
+CO,Colorado,SW
+CT,Connecticut,SW
+DE,Delaware,MAN
+FL,Florida,MAN
+GA,Georgia,SW
+HI,Hawaii,SW
+ID,Idaho,MAN
+IL,Illinois,MAN
+IN,Indiana,MAN
+IA,Iowa,MAN
+KS,Kansas,MAN
+KY,Kentucky,MAN
+LA,Louisiana,SW
+ME,Maine,SW
+MD,Maryland,SW
+MA,Massachusetts,MAN
+MI,Michigan,SW
+MN,Minnesota,MAN
+MS,Mississippi,MAN
+MO,Missouri,SW
+MT,Montana,SW
+NE,Nebraska,SW
+NV,Nevada,MAN
+NH,New Hampshire,SW
+NJ,New Jersey,SW
+NM,New Mexico,SW
+NY,New York,SW
+NC,North Carolina,SW
+ND,North Dakota,MAN
+OH,Ohio,MAN
+OK,Oklahoma,SW
+OR,Oregon,MAN
+PA,Pennsylvania,SW
+RI,Rhode Island,MAN
+SC,South Carolina,SW
+SD,South Dakota,MAN
+TN,Tennessee,MAN
+TX,Texas,MAN
+UT,Utah,SW
+VT,Vermont,MAN
+VA,Virginia,SW
+WA,Washington,MAN
+WV,West Virginia,MAN
+WI,Wisconsin,MAN
+WY,Wyoming,SW
