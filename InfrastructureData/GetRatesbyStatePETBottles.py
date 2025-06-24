@@ -20,6 +20,28 @@ def getRates(inputfile):
                                                
     return statePercentage
 
+def getNumberofCentersperState(inputfile):
+    stateCenters = {}
+    with open(inputfile, 'r') as csvfile:
+        reader = csv.reader(csvfile)
+        header = next(reader)
+        for row in reader:
+            if row[9] != '':
+                if row[9] == 'Plastic Recycling Facility':
+                    if row[11] not in stateCenters:
+                        stateCenters[row[11]] = 1
+                    else:
+                        stateCenters[row[11]] += 1
+
+    with open('InfrastructureData/CSVData/2020PopulationData.csv', 'r', newline='') as popfile:
+        popreader = csv.reader(popfile)
+        next(popreader)
+        for row in popreader:
+            state = row[4]
+            if state not in stateCenters:
+                stateCenters[state] = 0
+    return stateCenters
+                    
 def getTotalUSRate(statePercentage):
     counter = 0
     total = 0

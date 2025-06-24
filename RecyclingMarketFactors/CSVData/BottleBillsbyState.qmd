@@ -1,16 +1,15 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="3.42.3-Münster">
-  <identifier>Textiles_Recycling</identifier>
+  <identifier>Bottle_Bills_by_State</identifier>
   <parentidentifier></parentidentifier>
   <language>ENG</language>
   <type>dataset</type>
-  <title>Textiles_by_ZipCode</title>
-  <abstract>On America Recycles Day, 2020, the U.S. Environmental Protection Agency (EPA) announced a National Recycling Goal to increase the U.S. recycling rate of materials generated in municipal solid waste (MSW), by weight, to 50 percent by 2030. To further this goal and support the building of new recycling infrastructure through the Bipartisan Infrastructure Law (BIL), EPA is developing a map displaying estimated generation of recyclable materials, estimated recycled quantities, existing recycling infrastructure, and potential recycling end markets to facilitate a needs analysis and better understand where funding could be allocated to enhance markets. 
-This dataset provides locations of potential primary recycling end markets in the U.S. Potential primary end markets are defined as industries that can potentially use recycled material directly in production. The dataset includes end markets for 9 different materials: glass, paper, organics, leather, plastics, metals, rubber, textiles, and wood. The data provide facility name, facility address, phone, website, NAICS code, NAICS description, relevant material type(s), and whether they use multiple material types. The layer relies on data from D&amp;B Hoovers 2021. To identify the industries associated with potential primary end markets, we relied on industry reports (e.g., IBISWorld), that define the potential primary end markets for recyclable materials. We identified the NAICS codes for relevant industries, categorized them by material type, and compiled the list of facilities associated with those NAICS codes from D&amp;B Hoovers. Finally, we pulled information from D&amp;B Hoovers for each facility and geocoded facilities using their addresses. 
-This dataset is a snapshot of U.S. recycling quantities, infrastructure, and materials markets as of 2019-2021. The map was created by Industrial Economics, Inc. (IEc), a consultancy supporting EPA to develop the Recycling Infrastructure and Market Opportunities Map. The map is managed by EPA’s Office of Land and Emergency Management. This project was supported in part by an appointment to the Research Participation Program at the Office of Land and Emergency Management, U.S. Environmental Protection Agency, administered by the Oak Ridge Institute for Science and Education through an interagency agreement between the U.S. Department of Energy and EPA. 
+  <title>Bottle_Bills_by_State</title>
+  <abstract>n America Recycles Day, 2020, the U.S. Environmental Protection Agency (EPA) announced a National Recycling Goal to increase the U.S. recycling rate of materials generated in municipal solid waste (MSW), by weight, to 50 percent by 2030. To further this goal and support the building of new recycling infrastructure through the Bipartisan Infrastructure Law (BIL), EPA is developing a map displaying estimated generation of recyclable materials, estimated recycled quantities, existing recycling infrastructure, and potential recycling end markets to facilitate a needs analysis and better understand where funding could be allocated to enhance markets.
+The bottle bill layer is sourced from the Container Recycling Institute’s Bottle Bill Resource Guide. For each state, we provide information on whether the state has a bottle bill, the deposit prices for aluminum, glass, and PET, and notes on the materials accepted. States that do not have bottle bills are grayed out in the layer. 
+This dataset is a snapshot of U.S. recycling quantities, infrastructure, and materials markets as of 2019-2021. The map was created by Industrial Economics, Inc. (IEc), a consultancy supporting EPA to develop the Recycling Infrastructure and Market Opportunities Map. The map is managed by EPA’s Office of Land and Emergency Management. This project was supported in part by an appointment to the Research Participation Program at the Office of Land and Emergency Management, U.S. Environmental Protection Agency, administered by the Oak Ridge Institute for Science and Education through an interagency agreement between the U.S. Department of Energy and EPA.
 
-
-Potential primary recycling end markets in the U.S. - EPA Office of Land and Emergency Management</abstract>
+Bottle Bills and Landfill Tipping Fees by State - EPA Office of Land and Emergency Management</abstract>
   <keywords vocabulary="Search keys">
     <keyword>SEGS</keyword>
     <keyword>Recycling Infrastructure and Market Opportunities Map</keyword>
@@ -108,7 +107,7 @@ Potential primary recycling end markets in the U.S. - EPA Office of Land and Eme
   <constraints type="Limitations of use">Security classification: Public. 
 Access constraints: None. 
 Use constraints: This data is shared by the U.S. EPA as an interactive web map application solely as general information on recycling infrastructure and potential market opportunities. Please check sources, scale, accuracy, currency, and other available information.</constraints>
-  <rights>U.S. Environmental Protection Agency, Office of Mission Support; Data Steward: Office of Land and Emergency Management, U.S. Environmental Protection Agency </rights>
+  <rights>U.S. Environmental Protection Agency, Office of Mission Support; Data Steward: Office of Land and Emergency Management, U.S. Environmental Protection Agency</rights>
   <encoding></encoding>
   <crs>
     <spatialrefsys nativeFormat="Wkt">

@@ -14,6 +14,9 @@ import TextilesVsArtReg
 import RegvsRecyclingRate
 import GetRatesbyStatePETBottles
 import GetRatesbyStateTextiles
+import GetRatesbyStateAluminum
+import GetRatesbyStateGlass
+import GetRatesbyStatePaper
 
 def plotInfraByState():
     data = AnyInfraByState.csvtodict('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
@@ -349,6 +352,213 @@ def plotTextileRatesbyState():
     plt.savefig('InfrastructureData/Graphs/TextileRecyclingRatesbyState')
     plt.show()
 
+def plotPETsitesbyState():
+    petData = GetRatesbyStatePETBottles.getRates('RecyclingData/CSVData/PETBottlesbyZip_cleaned.csv')
+    petDataSortedbyValue = {k: v for k, v in sorted(petData.items(), key=lambda x: x[1], reverse=True)}
+    x = petDataSortedbyValue.keys()  # Get the states from the dictionary
+    y = petDataSortedbyValue.values()  # Get the counts for each state
+
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Number of PET Bottle Recycling Sites by State')
+    plt.xlabel('State')
+    plt.ylabel('# of PET Bottle Recycling Sites')
+    plt.savefig('InfrastructureData/Graphs/PETBottleRecyclingSitesByState.pdf')
+    plt.show()
+
+
+def plotPETvsRecyclingRate():
+    petData = GetRatesbyStatePETBottles.getRates('RecyclingData/CSVData/PETBottlesbyZip_cleaned.csv')
+    plasticSites = GetRatesbyStatePETBottles.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+
+    petDataSortedbyKey = {k: v for k, v in sorted(petData.items(), key=lambda x: x[0])}
+    plasticSitesSortedbyKey = {k: v for k, v in sorted(plasticSites.items(), key=lambda x: x[0])}
+
+    petDataList = list(petDataSortedbyKey.values())
+    plasticSitesList = list(plasticSitesSortedbyKey.values())
+
+    z = np.polyfit(plasticSitesList, petDataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(plasticSitesList, petDataList)
+    plt.plot(plasticSitesList, p(plasticSitesList), "r--")
+    plt.title('PET Bottle Recycling Rate vs. Number of Plastic Recycling Sites')
+    plt.xlabel('Number of Plastic Recycling Sites')
+    plt.ylabel('PET Bottle Recycling Rate (%)')
+    plt.savefig('InfrastructureData/Graphs/PETBottleRecyclingRatevsSites.pdf')
+    plt.show()
+
+def plotTextilesvsRecyclingRate():
+    textileData = GetRatesbyStateTextiles.getRates('RecyclingData/CSVData/TextileRecyclingbyZip_cleaned.csv')
+    textileSites = GetRatesbyStateTextiles.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    textileSitesCleaned = {}
+
+    for key in textileSites:
+        if key in textileData:
+            textileSitesCleaned[key] = textileSites[key]
+
+    textileDataSortedbyKey = {k: v for k, v in sorted(textileData.items(), key=lambda x: x[0])}
+    textileSitesSortedbyKey = {k: v for k, v in sorted(textileSitesCleaned.items(), key=lambda x: x[0])}
+
+    textileDataList = list(textileDataSortedbyKey.values())
+    textileSitesList = list(textileSitesSortedbyKey.values())
+
+    z = np.polyfit(textileSitesList, textileDataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(textileSitesList, textileDataList)
+    plt.plot(textileSitesList, p(textileSitesList), "r--")
+    plt.title('Textile Recycling Rate vs. Number of Textile Recycling Sites')
+    plt.xlabel('Number of Textile Recycling Sites')
+    plt.ylabel('Textile Recycling Rate (%)')
+    plt.savefig('InfrastructureData/Graphs/TextileRecyclingRatevsSites.pdf')
+    plt.show()
+
+def plotAluminumRatesbyState():
+    aluminumData = GetRatesbyStateAluminum.getRates('RecyclingData/CSVData/AluminumRecyclingbyZip_cleaned.csv')
+    aluminumDataSortedbyValue = {k: v for k, v in sorted(aluminumData.items(), key=lambda x: x[1], reverse=True)}
+    
+    x = aluminumDataSortedbyValue.keys()  # Get the states from the dictionary
+    y = aluminumDataSortedbyValue.values()  # Get the recycling rates for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Aluminum Recycling Rates by State')
+    plt.xlabel('State')
+    plt.ylabel('Aluminum Recycling Rate (%)')
+    plt.gca().set_ybound(upper=100)
+    plt.savefig('InfrastructureData/Graphs/AluminumRecyclingRatesbyState.pdf')
+    plt.show()
+
+def plotAluminumRatesvsMRFS():
+    aluminumData = GetRatesbyStateAluminum.getRates('RecyclingData/CSVData/AluminumRecyclingbyZip_cleaned.csv')
+    MRFData = MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv')
+    MRFDataCleaned = {}
+
+    for key in MRFData:
+        if key in aluminumData:
+            MRFDataCleaned[key] = MRFData[key]
+
+    aluminumDataSortedbyKey = {k: v for k, v in sorted(aluminumData.items(), key=lambda x: x[0])}
+    MRFDataSortedbyKey = {k: v for k, v in sorted(MRFDataCleaned.items(), key=lambda x: x[0])}
+    aluminumDataList = list(aluminumDataSortedbyKey.values())
+    MRFDataList = list(MRFDataSortedbyKey.values())
+
+    z = np.polyfit(MRFDataList, aluminumDataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(MRFDataList, aluminumDataList)
+    plt.plot(MRFDataList, p(MRFDataList), "r--")
+    plt.title('Aluminum Recycling Rate vs. Number of MRFs')
+    plt.xlabel('Number of MRFs')
+    plt.ylabel('Aluminum Recycling Rate (%)')
+    plt.savefig('InfrastructureData/Graphs/AluminumRecyclingRatevsMRFs.pdf')
+    plt.show()
+
+def plotGlassSitesbyState():
+    glassData = GetRatesbyStateGlass.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    glassDataSortedbyValue = {k: v for k, v in sorted(glassData.items(), key=lambda x: x[1], reverse=True)}
+    x = glassDataSortedbyValue.keys()  # Get the states from the dictionary
+    y = glassDataSortedbyValue.values()  # Get the counts for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Number of Glass Recycling Sites by State')
+    plt.xlabel('State')
+    plt.ylabel('# of Glass Recycling Sites')
+    plt.savefig('InfrastructureData/Graphs/GlassRecyclingSitesByState.pdf')
+    plt.show()
+
+def plotGlassRatesbyState():
+    glassData = GetRatesbyStateGlass.getRates('RecyclingData/CSVData/GlassRecyclingbyZip_cleaned.csv')
+    glassDataSortedbyValue = {k: v for k, v in sorted(glassData.items(), key=lambda x: x[1], reverse=True)}
+    x = glassDataSortedbyValue.keys()  # Get the states from the dictionary
+    y = glassDataSortedbyValue.values()  # Get the recycling rates for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Glass Recycling Rates by State')
+    plt.xlabel('State')
+    plt.ylabel('Glass Recycling Rate (%)')
+    plt.gca().set_ybound(upper=100)
+    plt.savefig('InfrastructureData/Graphs/GlassRecyclingRatesbyState.pdf')
+    plt.show()
+    
+def plotGlassvsRecyclingRate():
+    glassData = GetRatesbyStateGlass.getRates('RecyclingData/CSVData/GlassRecyclingbyZip_cleaned.csv')
+    glassSites = GetRatesbyStateGlass.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    glassSitesCleaned = {}
+
+    for key in glassSites:
+        if key in glassData:
+            glassSitesCleaned[key] = glassSites[key]
+
+    glassDataSortedbyKey = {k: v for k, v in sorted(glassData.items(), key=lambda x: x[0])}
+    glassSitesSortedbyKey = {k: v for k, v in sorted(glassSitesCleaned.items(), key=lambda x: x[0])}
+
+    glassDataList = list(glassDataSortedbyKey.values())
+    glassSitesList = list(glassSitesSortedbyKey.values())
+
+    z = np.polyfit(glassSitesList, glassDataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(glassSitesList, glassDataList)
+    plt.plot(glassSitesList, p(glassSitesList), "r--")
+    plt.title('Glass Recycling Rate vs. Number of Glass Recycling Sites')
+    plt.xlabel('Number of Glass Recycling Sites')
+    plt.ylabel('Glass Recycling Rate (%)')
+    plt.savefig('InfrastructureData/Graphs/GlassRecyclingRatevsSites.pdf')
+    plt.show()
+    
+def plotPaperSitesbyState():
+    paperData = GetRatesbyStatePaper.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    paperDataSortedbyValue = {k: v for k, v in sorted(paperData.items(), key=lambda x: x[1], reverse=True)}
+    x = paperDataSortedbyValue.keys()  # Get the states from the dictionary
+    y = paperDataSortedbyValue.values()  # Get the counts for each state
+
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Number of Paper Recycling Sites by State')
+    plt.xlabel('State')
+    plt.ylabel('# of Paper Recycling Sites')
+    plt.savefig('InfrastructureData/Graphs/PaperRecyclingSitesByState.pdf')
+    plt.show()
+
+def plotPaperRatesbyState():
+    paperData = GetRatesbyStatePaper.getRates('RecyclingData/CSVData/PaperRecyclingbyZip_cleaned.csv')
+    paperDataSortedbyValue = {k: v for k, v in sorted(paperData.items(), key=lambda x: x[1], reverse=True)}
+    x = paperDataSortedbyValue.keys()  # Get the states from the dictionary
+    y = paperDataSortedbyValue.values()  # Get the recycling rates for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Paper Recycling Rates by State')
+    plt.xlabel('State')
+    plt.ylabel('Paper Recycling Rate (%)')
+    plt.gca().set_ybound(upper=100)
+    plt.savefig('InfrastructureData/Graphs/PaperRecyclingRatesbyState.pdf')
+    plt.show()
+
+def plotPapervsRecyclingRate():
+    paperData = GetRatesbyStatePaper.getRates('RecyclingData/CSVData/PaperRecyclingbyZip_cleaned.csv')
+    paperSites = GetRatesbyStatePaper.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    paperSitesCleaned = {}
+    for key in paperSites:
+        if key in paperData:
+            paperSitesCleaned[key] = paperSites[key]
+    paperDataSortedbyKey = {k: v for k, v in sorted(paperData.items(), key=lambda x: x[0])}
+    paperSitesSortedbyKey = {k: v for k, v in sorted(paperSitesCleaned.items(), key=lambda x: x[0])}
+    paperDataList = list(paperDataSortedbyKey.values())
+    paperSitesList = list(paperSitesSortedbyKey.values())
+    z = np.polyfit(paperSitesList, paperDataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(paperSitesList, paperDataList)
+    plt.plot(paperSitesList, p(paperSitesList), "r--")
+    plt.title('Paper Recycling Rate vs. Number of Paper Recycling Sites')
+    plt.xlabel('Number of Paper Recycling Sites')
+    plt.ylabel('Paper Recycling Rate (%)')
+    plt.savefig('InfrastructureData/Graphs/PaperRecyclingRatevsSites.pdf')
+    plt.show()
+
+
 # plotInfraByState()
 # plotMRFbyState()
 # plotMostCommonFacilities()
@@ -367,3 +577,14 @@ def plotTextileRatesbyState():
 # plotRegvsRecyclingRate()
 # plotPetRatesbyState()
 # plotTextileRatesbyState()
+# plotPETsitesbyState()
+# plotPETvsRecyclingRate()
+# plotTextilesvsRecyclingRate()
+# plotAluminumRatesbyState()
+# plotAluminumRatesvsMRFS()
+# plotGlassSitesbyState()
+# plotGlassRatesbyState()
+# plotGlassvsRecyclingRate()
+plotPaperSitesbyState()
+plotPaperRatesbyState()
+plotPapervsRecyclingRate()

@@ -10,13 +10,14 @@ def getRates(inputfile):
             if row[11] != '':
                 if row[11] not in rates:
                     if row[6] != '' and row[7] != '':
-                        rates[row[11]] = [float(row[6]), float(row[5])]
+                        rates[row[11]] = [float(row[6]), float(row[7])]
                 else:
                     if row[6] != '' and row[7] != '':
                         rates[row[11]][0] += float(row[6])
-                        rates[row[11]][1] += float(row[5])
+                        rates[row[11]][1] += float(row[7])
     for state in rates:
-        statePercentage[state] = (rates[state][1] / rates[state][0]) * 100                                       
+        statePercentage[state] = (rates[state][1] / rates[state][0]) * 100
+                                               
     return statePercentage
 
 def getNumberofCentersperState(inputfile):
@@ -25,12 +26,13 @@ def getNumberofCentersperState(inputfile):
         reader = csv.reader(csvfile)
         header = next(reader)
         for row in reader:
-            if row[9] != '':
-                if row[9] == 'Textiles Recycling Facility':
+            if row[10] != '':
+                if row[10] == 'Glass':
                     if row[11] not in stateCenters:
                         stateCenters[row[11]] = 1
                     else:
                         stateCenters[row[11]] += 1
+
     with open('InfrastructureData/CSVData/2020PopulationData.csv', 'r', newline='') as popfile:
         popreader = csv.reader(popfile)
         next(popreader)
@@ -39,7 +41,7 @@ def getNumberofCentersperState(inputfile):
             if state not in stateCenters:
                 stateCenters[state] = 0
     return stateCenters
-
+                    
 def getTotalUSRate(statePercentage):
     counter = 0
     total = 0
@@ -48,5 +50,3 @@ def getTotalUSRate(statePercentage):
         total += statePercentage[state]
     
     return (total / counter)
-
-#print(getRates('RecyclingData/CSVData/TextileRecyclingbyZip_cleaned.csv'))
