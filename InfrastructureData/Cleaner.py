@@ -50,4 +50,4 @@ def getStateAbbr(input, output):
 
 #removeDuplicateRows('InfrastructureData/InfrastructureData.csv', 'InfrastructureData/InfrastructureData_cleaned.csv')
 #getState('InfrastructureData/InfrastructureData.csv', 'InfrastructureData/InfrastructureData_cleaned.csv')
-getStateAbbr('RecyclingData/CSVData/PaperRecyclingbyZip.csv', 'RecyclingData/CSVData/PaperRecyclingbyZip_cleaned.csv')
+getStateAbbr('RecyclingData/CSVData/ElectronicRecyclingbyZip.csv', 'RecyclingData/CSVData/ElectronicRecyclingbyZip_cleaned.csv')

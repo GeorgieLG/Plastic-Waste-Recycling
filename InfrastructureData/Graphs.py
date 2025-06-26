@@ -17,6 +17,10 @@ import GetRatesbyStateTextiles
 import GetRatesbyStateAluminum
 import GetRatesbyStateGlass
 import GetRatesbyStatePaper
+import LandfillTippingFees
+import BottleBills
+import GetRatesbyStateWood
+import GetRatesbyStateElectronics
 
 def plotInfraByState():
     data = AnyInfraByState.csvtodict('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
@@ -558,8 +562,277 @@ def plotPapervsRecyclingRate():
     plt.savefig('InfrastructureData/Graphs/PaperRecyclingRatevsSites.pdf')
     plt.show()
 
+def plotTippingFeesByState():
+    tippingFees = LandfillTippingFees.getTippingFees('RecyclingMarketFactors/CSVData/LandfillTippingFees_cleaned.csv')
+    tippingFeesSortedbyValue = {k: v for k, v in sorted(tippingFees.items(), key=lambda x: x[1], reverse=True)} 
+    x = tippingFeesSortedbyValue.keys()  # Get the states from the dictionary
+    y = tippingFeesSortedbyValue.values()  # Get the tipping fees for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Landfill Tipping Fees by State')
+    plt.xlabel('State')
+    plt.ylabel('Average Tipping Fee (USD per ton)')
+    plt.savefig('InfrastructureData/Graphs/LandfillTippingFeesByState.pdf')
+    plt.show()
 
-# plotInfraByState()
+def plotRegvsTippingFees():
+    data = LandfillTippingFees.regvsTippingFees()
+    dataSortedbyValue = {k: v for k, v in sorted(data.items(), key=lambda x: x[1], reverse=True)}
+    x = dataSortedbyValue.keys()  # Get the regulations from the dictionary
+    y = dataSortedbyValue.values()  # Get the average tipping fees for each regulation
+    f = plt.figure()
+    f.set_figwidth(15)
+    f.set_figheight(8)
+    plt.bar(x, y)
+    plt.title('Average Tipping Fees by Regulation')
+    plt.xlabel('Regulation')
+    plt.ylabel('Average Tipping Fee (USD per ton)')
+    plt.gca().set_ybound(upper=100)
+    plt.savefig('InfrastructureData/Graphs/AvgTippingFeesByRegulation.pdf')
+    plt.show()
+    
+def plotTippingFeesvsRecyclingRate():
+    tippingFees = LandfillTippingFees.getTippingFees('RecyclingMarketFactors/CSVData/LandfillTippingFees_cleaned.csv')
+    recyclingData = GetRecyclingPercentagebyState.get_recycling_percentage_by_state('InfrastructureData/CSVData/RecyclingPercentageByState.csv')
+
+    tippingFeessortedbyKey = {k: v for k, v in sorted(tippingFees.items(), key=lambda x: x[0])}
+    recyclingDataSortedbyKey = {k: v for k, v in sorted(recyclingData.items(), key=lambda x: x[0])}
+    tippingFeesList = list(tippingFeessortedbyKey.values())
+    recyclingList = list(recyclingDataSortedbyKey.values())
+    z = np.polyfit(tippingFeesList, recyclingList, 1)
+    p = np.poly1d(z)
+    plt.scatter(tippingFeesList, recyclingList)
+    plt.plot(tippingFeesList, p(tippingFeesList), "r--")
+    plt.title('Recycling Rate vs. Landfill Tipping Fees')
+    plt.xlabel('Landfill Tipping Fees (USD per ton)')
+    plt.ylabel('Recycling Rate (%)')
+    plt.savefig('InfrastructureData/Graphs/RecyclingRatevsTippingFees.pdf')
+    plt.show()
+
+def plotBottleBillsvsTippingFee():
+    data = BottleBills.bottleBillvsTippingFees()
+    dataSortedbyValue = {k: v for k, v in sorted(data.items(), key=lambda x: x[1], reverse=True)}
+    x = dataSortedbyValue.keys()  # Get the states from the dictionary
+    y = dataSortedbyValue.values()  # Get the bottle bill amounts for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Tipping Fees vs. Presence of Bottle Bills by State')
+    plt.xlabel('Presence of Bottle Bill')
+    plt.ylabel('Average Tipping Fee (USD per ton)')
+    plt.savefig('InfrastructureData/Graphs/TippingFeesvsBottleBills.pdf')
+    plt.show()
+
+def plotWoodSitesbyState():
+    woodData = GetRatesbyStateWood.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    woodDataSortedbyValue = {k: v for k, v in sorted(woodData.items(), key=lambda x: x[1], reverse=True)}
+    x = woodDataSortedbyValue.keys()  # Get the states from the dictionary
+    y = woodDataSortedbyValue.values()  # Get the counts for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Number of Wood Recycling Sites by State')
+    plt.xlabel('State')
+    plt.ylabel('# of Wood Recycling Sites')
+    plt.savefig('InfrastructureData/Graphs/WoodRecyclingSitesByState.pdf')
+    plt.show()
+
+
+def plotWoodvsRecyclingRate():
+    woodData = GetRatesbyStateWood.getRates('RecyclingData/CSVData/WoodRecyclingbyZip_cleaned.csv')
+    woodSites = GetRatesbyStateWood.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+
+    woodSitesCleaned = {}
+    for key in woodSites:
+        if key in woodData:
+            woodSitesCleaned[key] = woodSites[key]
+    woodDataSortedbyKey = {k: v for k, v in sorted(woodData.items(), key=lambda x: x[0])}
+    woodSitesSortedbyKey = {k: v for k, v in sorted(woodSitesCleaned.items(), key=lambda x: x[0])}
+    woodDataList = list(woodDataSortedbyKey.values())
+    woodSitesList = list(woodSitesSortedbyKey.values())
+
+    z = np.polyfit(woodSitesList, woodDataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(woodSitesList, woodDataList)
+    plt.plot(woodSitesList, p(woodSitesList), "r--")
+    plt.title('Wood Recycling Rate vs. Number of Wood Recycling Sites')
+    plt.xlabel('Number of Wood Recycling Sites')
+    plt.ylabel('Wood Recycling Rate (%)')
+    plt.savefig('InfrastructureData/Graphs/WoodRecyclingRatevsSites.pdf')
+    plt.show()
+
+def plotElectronicsSitesbyState():
+    electronicsData = GetRatesbyStateElectronics.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    electronicsDataSortedbyValue = {k: v for k, v in sorted(electronicsData.items(), key=lambda x: x[1], reverse=True)}
+    x = electronicsDataSortedbyValue.keys()  # Get the states from the dictionary
+    y = electronicsDataSortedbyValue.values()  # Get the counts for each state
+    f = plt.figure()
+    f.set_figwidth(15)
+    plt.bar(x, y)
+    plt.title('Number of Electronics Recycling Sites by State')
+    plt.xlabel('State')
+    plt.ylabel('# of Electronics Recycling Sites')
+    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingSitesByState.pdf')
+    plt.show()
+
+def plotElectronicsvsRecyclingRate():
+    electronicsData = GetRatesbyStateElectronics.getRates('RecyclingData/CSVData/ElectronicRecyclingbyZip_cleaned.csv')
+    electronicsSites = GetRatesbyStateElectronics.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    electronicsSitesCleaned = {}
+    for key in electronicsSites:
+        if key in electronicsData:
+            electronicsSitesCleaned[key] = electronicsSites[key]
+    electronicsDataSortedbyKey = {k: v for k, v in sorted(electronicsData.items(), key=lambda x: x[0])}
+    electronicsSitesSortedbyKey = {k: v for k, v in sorted(electronicsSitesCleaned.items(), key=lambda x: x[0])}
+    electronicsDataList = list(electronicsDataSortedbyKey.values())
+    electronicsSitesList = list(electronicsSitesSortedbyKey.values())
+    z = np.polyfit(electronicsSitesList, electronicsDataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(electronicsSitesList, electronicsDataList)
+    plt.plot(electronicsSitesList, p(electronicsSitesList), "r--")
+    plt.title('Electronics Recycling Rate vs. Number of Electronics Recycling Sites')
+    plt.xlabel('Number of Electronics Recycling Sites')
+    plt.ylabel('Electronics Recycling Rate (%)')
+    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingRatevsSites.pdf')
+    plt.show()
+
+def plotTextilevsMRFs():
+    MRFdata = MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv')
+    textileSites = GetRatesbyStateTextiles.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    MRFdataCleaned = {}
+    for key in MRFdata:
+        if key in textileSites:
+            MRFdataCleaned[key] = MRFdata[key]
+
+    MRFdataSortedbyKey = {k: v for k, v in sorted(MRFdataCleaned.items(), key=lambda x: x[0])}
+    textileSitesSortedbyKey = {k: v for k, v in sorted(textileSites.items(), key=lambda x: x[0])}
+
+    MRFdataList = list(MRFdataSortedbyKey.values())
+    textileSitesList = list(textileSitesSortedbyKey.values())
+    z = np.polyfit(textileSitesList, MRFdataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(textileSitesList, MRFdataList)
+    plt.plot(textileSitesList, p(textileSitesList), "r--")
+    plt.title('Textile Recycling Sites vs. Number of MRFs')
+    plt.xlabel('Number of Textile Recycling Sites')
+    plt.ylabel('Number of MRFs')
+    plt.savefig('InfrastructureData/Graphs/TextileRecyclingSitesvsMRFs.pdf')
+    plt.show()
+
+def plotPlasticvsMRF():
+    MRFdata = MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv')
+    plasticSites = GetRatesbyStatePETBottles.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    MRFdataCleaned = {}
+    for key in MRFdata:
+        if key in plasticSites:
+            MRFdataCleaned[key] = MRFdata[key]
+
+    MRFdataSortedbyKey = {k: v for k, v in sorted(MRFdataCleaned.items(), key=lambda x: x[0])}
+    plasticSitesSortedbyKey = {k: v for k, v in sorted(plasticSites.items(), key=lambda x: x[0])}
+    MRFdataList = list(MRFdataSortedbyKey.values())
+    plasticSitesList = list(plasticSitesSortedbyKey.values())
+
+    z = np.polyfit(plasticSitesList, MRFdataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(plasticSitesList, MRFdataList)
+    plt.plot(plasticSitesList, p(plasticSitesList), "r--")
+    plt.title('Plastic Recycling Sites vs. Number of MRFs')
+    plt.xlabel('Number of Plastic Recycling Sites')
+    plt.ylabel('Number of MRFs')
+    plt.savefig('InfrastructureData/Graphs/PlasticRecyclingSitesvsMRFs.pdf')
+    plt.show()
+
+def plotGlassvsMRFs():
+    MRFdata = MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv')
+    glassSites = GetRatesbyStateGlass.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    MRFdataCleaned = {}
+    for key in MRFdata:
+        if key in glassSites:
+            MRFdataCleaned[key] = MRFdata[key]
+
+    MRFdataSortedbyKey = {k: v for k, v in sorted(MRFdataCleaned.items(), key=lambda x: x[0])}
+    glassSitesSortedbyKey = {k: v for k, v in sorted(glassSites.items(), key=lambda x: x[0])}
+    MRFdataList = list(MRFdataSortedbyKey.values())
+    glassSitesList = list(glassSitesSortedbyKey.values())
+
+    z = np.polyfit(glassSitesList, MRFdataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(glassSitesList, MRFdataList)
+    plt.plot(glassSitesList, p(glassSitesList), "r--")
+    plt.title('Glass Recycling Sites vs. Number of MRFs')
+    plt.xlabel('Number of Glass Recycling Sites')
+    plt.ylabel('Number of MRFs')
+    plt.savefig('InfrastructureData/Graphs/GlassRecyclingSitesvsMRFs.pdf')
+    plt.show()
+
+def plotPapervsMRFs():
+    MRFdata = MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv')
+    paperSites = GetRatesbyStatePaper.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    MRFdataCleaned = {}
+    for key in MRFdata:
+        if key in paperSites:
+            MRFdataCleaned[key] = MRFdata[key]
+
+    MRFdataSortedbyKey = {k: v for k, v in sorted(MRFdataCleaned.items(), key=lambda x: x[0])}
+    paperSitesSortedbyKey = {k: v for k, v in sorted(paperSites.items(), key=lambda x: x[0])}
+    MRFdataList = list(MRFdataSortedbyKey.values())
+    paperSitesList = list(paperSitesSortedbyKey.values())
+
+    z = np.polyfit(paperSitesList, MRFdataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(paperSitesList, MRFdataList)
+    plt.plot(paperSitesList, p(paperSitesList), "r--")
+    plt.title('Paper Recycling Sites vs. Number of MRFs')
+    plt.xlabel('Number of Paper Recycling Sites')
+    plt.ylabel('Number of MRFs')
+    plt.savefig('InfrastructureData/Graphs/PaperRecyclingSitesvsMRFs.pdf')
+    plt.show()
+
+def plotWoodvsMRFs():
+    MRFdata = MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv')
+    woodSites = GetRatesbyStateWood.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    MRFdataCleaned = {}
+    for key in MRFdata:
+        if key in woodSites:
+            MRFdataCleaned[key] = MRFdata[key]
+
+    MRFdataSortedbyKey = {k: v for k, v in sorted(MRFdataCleaned.items(), key=lambda x: x[0])}
+    woodSitesSortedbyKey = {k: v for k, v in sorted(woodSites.items(), key=lambda x: x[0])}
+    MRFdataList = list(MRFdataSortedbyKey.values())
+    woodSitesList = list(woodSitesSortedbyKey.values())
+
+    z = np.polyfit(woodSitesList, MRFdataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(woodSitesList, MRFdataList)
+    plt.plot(woodSitesList, p(woodSitesList), "r--")
+    plt.title('Wood Recycling Sites vs. Number of MRFs')
+    plt.xlabel('Number of Wood Recycling Sites')
+    plt.ylabel('Number of MRFs')
+    plt.savefig('InfrastructureData/Graphs/WoodRecyclingSitesvsMRFs.pdf')
+    plt.show()
+
+def plotElectronicsvsMRF():
+    MRFdata = MRFbyState.csvtodict('InfrastructureData/CSVData/MRFdata.csv')
+    electronicsSites = GetRatesbyStateElectronics.getNumberofCentersperState('InfrastructureData/CSVData/InfrastructureData_cleaned.csv')
+    MRFdataCleaned = {}
+    for key in MRFdata:
+        if key in electronicsSites:
+            MRFdataCleaned[key] = MRFdata[key]
+    MRFdataSortedbyKey = {k: v for k, v in sorted(MRFdataCleaned.items(), key=lambda x: x[0])}
+    electronicsSitesSortedbyKey = {k: v for k, v in sorted(electronicsSites.items(), key=lambda x: x[0])}
+    MRFdataList = list(MRFdataSortedbyKey.values())
+    electronicsSitesList = list(electronicsSitesSortedbyKey.values())
+    z = np.polyfit(electronicsSitesList, MRFdataList, 1)
+    p = np.poly1d(z)
+    plt.scatter(electronicsSitesList, MRFdataList)
+    plt.plot(electronicsSitesList, p(electronicsSitesList), "r--")
+    plt.title('Electronics Recycling Sites vs. Number of MRFs')
+    plt.xlabel('Number of Electronics Recycling Sites')
+    plt.ylabel('Number of MRFs')
+    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingSitesvsMRFs.pdf')
+    plt.show()
+
 # plotMRFbyState()
 # plotMostCommonFacilities()
 # plotDensityvsInfra()
@@ -585,6 +858,20 @@ def plotPapervsRecyclingRate():
 # plotGlassSitesbyState()
 # plotGlassRatesbyState()
 # plotGlassvsRecyclingRate()
-plotPaperSitesbyState()
-plotPaperRatesbyState()
-plotPapervsRecyclingRate()
+# plotPaperSitesbyState()
+# plotPaperRatesbyState()
+# plotPapervsRecyclingRate()
+# plotTippingFeesByState()
+# plotRegvsTippingFees()
+# plotTippingFeesvsRecyclingRate()
+# plotBottleBillsvsTippingFee()
+# plotWoodSitesbyState()
+# plotWoodvsRecyclingRate()
+# plotTextilevsMRFs()
+# plotPlasticvsMRF()
+# plotGlassvsMRFs()
+# plotPapervsMRFs()
+# plotWoodvsMRFs()
+# plotElectronicsSitesbyState()
+# plotElectronicsvsRecyclingRate()
+plotElectronicsvsMRF()

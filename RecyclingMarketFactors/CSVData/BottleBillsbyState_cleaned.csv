@@ -1,0 +1,80 @@
+OBJECTID,State,Bottle_Bill__Yes_No_,Aluminum_Deposit_Price,Glass_Deposit_Price,PET_Bottle_Deposit_Price,Notes_on_Materials_Accepted,Shape_Length,Shape_Area,StateAbbr
+1,Maryland,No,Not applicable,Not applicable,Not applicable,Not applicable,18.2851385706407,2.86509068113284,MD
+2,Iowa,Yes,$0.05 ,$0.05 ,$0.05 ,"- Beer & malt beverages 
+- Carbonated soft drinks & mineral water
+- Wine coolers
+- Wine & liquor",18.6273401744425,15.848948575755,IA
+3,Delaware,No,Not applicable,Not applicable,Not applicable,Not applicable,4.07803139646393,0.553715769433645,DE
+4,Ohio,No,Not applicable,Not applicable,Not applicable,Not applicable,15.5785004462697,11.3321205778473,OH
+5,Pennsylvania,No,Not applicable,Not applicable,Not applicable,Not applicable,16.5632812341146,12.5374390761494,PA
+6,Nebraska,No,Not applicable,Not applicable,Not applicable,Not applicable,23.0781108306976,21.6171884342637,NE
+7,Washington,No,Not applicable,Not applicable,Not applicable,Not applicable,24.4957545578903,21.3048660603002,WA
+8,Alabama,No,Not applicable,Not applicable,Not applicable,Not applicable,16.9044218901237,12.8973645019569,AL
+9,Arkansas,No,Not applicable,Not applicable,Not applicable,Not applicable,17.6550348172482,13.5914043620925,AR
+10,New Mexico,No,Not applicable,Not applicable,Not applicable,Not applicable,23.5522736986879,30.8928005042941,NM
+11,Texas,No,Not applicable,Not applicable,Not applicable,Not applicable,45.047435829785,65.7785953064599,TX
+12,California,Yes,"<24 ounces: $0.05
+? 24 ounces: $0.10","<24 ounces: $0.05
+? 24 ounces: $0.10","<24 ounces: $0.05
+? 24 ounces: $0.10","- Beer & malt beverages
+- Carbonated soft drinks & mineral water
+- All other non-alcoholic beverages
+- Wine coolers & distilled spirits coolers   ",40.7559217182102,41.7301531469716,CA
+13,Kentucky,No,Not applicable,Not applicable,Not applicable,Not applicable,20.3483398248696,10.6656312062507,KY
+14,Georgia,No,Not applicable,Not applicable,Not applicable,Not applicable,17.2884437190422,14.6825470000588,GA
+15,Wisconsin,No,Not applicable,Not applicable,Not applicable,Not applicable,22.4288394885922,16.5129295457139,WI
+16,Oregon,Yes,$0.10 ,$0.10 ,$0.10 ,"- All beverages except wine, distilled liquor, dairy milk and plant-based milk, and infant formula",24.5650379668217,28.1830093242955,OR
+17,Missouri,No,Not applicable,Not applicable,Not applicable,Not applicable,22.7159776491744,18.6039660650214,MO
+18,Virginia,No,Not applicable,Not applicable,Not applicable,Not applicable,24.3380858352463,10.7765278854719,VA
+19,Tennessee,No,Not applicable,Not applicable,Not applicable,Not applicable,20.7075564916739,10.8921371779491,TN
+20,Louisiana,No,Not applicable,Not applicable,Not applicable,Not applicable,22.176979313219,11.8564021699678,LA
+21,New York,Yes,$0.05 ,$0.05 ,$0.05 ,"- Beer & malt beverages   
+- Carbonated soft drinks & mineral water
+- Bottled water including flavored water
+- Wine coolers",26.2566134310248,14.0736502309485,NY
+22,Michigan,Yes,$0.10 ,$0.10 ,$0.10 ,"- Beer & malt beverages
+- Carbonated soft drinks, mineral water, kombucha
+- Wine coolers & distilled spirits coolers",42.3047531694439,17.352434014561,MI
+23,Idaho,No,Not applicable,Not applicable,Not applicable,Not applicable,27.3995378431399,24.4846180951459,ID
+24,Florida,No,Not applicable,Not applicable,Not applicable,Not applicable,30.8710352771329,14.2276331070984,FL
+25,Alaska,No,Not applicable,Not applicable,Not applicable,Not applicable,279.580955644077,287.887187221388,AK
+26,Illinois,No,Not applicable,Not applicable,Not applicable,Not applicable,19.0859936328309,15.4132242551721,IL
+27,Montana,No,Not applicable,Not applicable,Not applicable,Not applicable,33.4617641590905,45.0530804524609,MT
+28,Minnesota,No,Not applicable,Not applicable,Not applicable,Not applicable,28.8874029027249,25.5650857225448,MN
+29,Indiana,No,Not applicable,Not applicable,Not applicable,Not applicable,14.7889677805102,9.88017409334843,IN
+30,Massachusetts,Yes,$0.05 ,$0.05 ,$0.05 ,"- Beer & malt beverages 
+- Carbonated soft drinks & mineral water",13.6261771042366,2.39256905751961,MA
+31,Kansas,No,Not applicable,Not applicable,Not applicable,Not applicable,21.0356537826089,22.0136182094336,KS
+32,Nevada,No,Not applicable,Not applicable,Not applicable,Not applicable,23.5163927926606,29.9372668777846,NV
+33,Vermont,Yes,"Liquor: $0.15 
+All others: $0.05","Liquor: $0.15 
+All others: $0.05","Liquor: $0.15 
+All others: $0.05","- Beer & malt beverages   
+- Carbonated soft drinks & mineral water
+- Wine coolers
+- Liquor",8.28196269397657,2.80160705776191,VT
+34,Connecticut,Yes,$0.05 ,$0.05 ,$0.05 ,"- Beer & malt beverages   
+- Carbonated soft drinks & mineral water
+- Bottled water including flavored water",5.71239931721135,1.40026231809094,CT
+35,New Jersey,No,Not applicable,Not applicable,Not applicable,Not applicable,7.9400074655221,2.13460202780125,NJ
+36,North Carolina,No,Not applicable,Not applicable,Not applicable,Not applicable,21.2687675655744,13.5675031758433,NC
+37,Utah,No,Not applicable,Not applicable,Not applicable,Not applicable,19.9974727461191,22.9773747959939,UT
+38,North Dakota,No,Not applicable,Not applicable,Not applicable,Not applicable,20.6334850155891,21.8419930440768,ND
+39,South Carolina,No,Not applicable,Not applicable,Not applicable,Not applicable,13.3619233560124,7.86123977933978,SC
+40,Mississippi,No,Not applicable,Not applicable,Not applicable,Not applicable,17.3494952718617,11.8669308130611,MS
+41,Colorado,No,Not applicable,Not applicable,Not applicable,Not applicable,22.0173224071385,28.036515371372,CO
+42,South Dakota,No,Not applicable,Not applicable,Not applicable,Not applicable,22.6809027065117,22.5779773941453,SD
+43,Oklahoma,No,Not applicable,Not applicable,Not applicable,Not applicable,24.4003047102237,17.9966372693466,OK
+44,Wyoming,No,Not applicable,Not applicable,Not applicable,Not applicable,21.9816668187167,27.9736022571786,WY
+45,West Virginia,No,Not applicable,Not applicable,Not applicable,Not applicable,16.5048813477122,6.5134444891103,WV
+46,Maine,Yes,"Wine & liquor ? 50mL: $0.15   
+All others: $0.05","Wine & liquor ? 50mL: $0.15   
+All others: $0.05","Wine & liquor ? 50mL: $0.15   
+All others: $0.05",- All beverages except dairy products and unprocessed cider,17.1057179589703,10.0027660599848,ME
+47,Hawaii,Yes,$0.05 ,$0.05 ,$0.05 ,"- Beer & malt beverages
+- Carbonated soft drinks & mineral water
+- All other non-alcoholic beverages
+- Wine coolers & distilled spirits coolers   ",12.5068002006484,1.44941773467571,HI
+48,New Hampshire,No,Not applicable,Not applicable,Not applicable,Not applicable,8.06224932517894,2.68352252701592,NH
+49,Arizona,No,Not applicable,Not applicable,Not applicable,Not applicable,23.022486688021,28.9212904250402,AZ
+50,Rhode Island,No,Not applicable,Not applicable,Not applicable,Not applicable,3.01990998918164,0.34634650229239,RI
