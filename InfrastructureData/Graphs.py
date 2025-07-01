@@ -39,7 +39,7 @@ def plotInfraByState():
     plt.xlabel('State')
     plt.ylabel('# of Sites') 
     plt.bar(x, y)
-    plt.savefig('InfrastructureData/Graphs/InfrastructureDatabystate.pdf')
+    plt.savefig('InfrastructureData/Graphs/InfrastructureDatabystate.png')
     plt.show()
 
     # print("State counts:", dataSortedbyValue)
@@ -60,7 +60,7 @@ def plotMRFbyState():
     plt.title('Number of MRFs by State')
     plt.xlabel('State')
     plt.ylabel('# of Sites')
-    plt.savefig('InfrastructureData/Graphs/MRFdatabystate.pdf')
+    plt.savefig('InfrastructureData/Graphs/MRFdatabystate.png')
     plt.show()
 
     # print("State counts:", dataSortedbyValue)
@@ -80,7 +80,7 @@ def plotMostCommonFacilities():
     plt.ylabel('Facility Type')
     plt.xlabel('# of Sites')
     plt.subplots_adjust(left=.25, bottom=None, right=.883, top=None, wspace=None, hspace=None)
-    plt.savefig('InfrastructureData/Graphs/MostCommonFacilities.pdf')
+    plt.savefig('InfrastructureData/Graphs/MostCommonFacilities.png')
     plt.show()
 
 def plotDensityvsInfra():
@@ -92,7 +92,7 @@ def plotDensityvsInfra():
     plt.title('Population Density vs. Number of Recycling Centers')
     plt.xlabel('Population Density (people per square mile)')
     plt.ylabel('Number of Recycling Centers')
-    plt.savefig('InfrastructureData/Graphs/PopulationDensityvsInfra.pdf')
+    plt.savefig('InfrastructureData/Graphs/PopulationDensityvsInfra.png')
     plt.show()
 
 def plotPopvsInfra():
@@ -104,7 +104,7 @@ def plotPopvsInfra():
     plt.title('Resident Population vs. Number of Recycling Centers')
     plt.xlabel('Resident Population')
     plt.ylabel('Number of Recycling Centers')
-    plt.savefig('InfrastructureData/Graphs/ResidentPopvsInfra.pdf')
+    plt.savefig('InfrastructureData/Graphs/ResidentPopvsInfra.png')
     plt.show()
 
 def plotDensityvsMRF():
@@ -116,7 +116,7 @@ def plotDensityvsMRF():
     plt.title('Population Density vs. Number of MRFs')
     plt.xlabel('Population Density (people per square mile)')
     plt.ylabel('Number of MRFs')
-    plt.savefig('InfrastructureData/Graphs/PopulationDensityvsMRF.pdf')
+    plt.savefig('InfrastructureData/Graphs/PopulationDensityvsMRF.png')
     plt.show()
 
 def plotPopvsMRF():
@@ -128,7 +128,7 @@ def plotPopvsMRF():
     plt.title('Resident Population vs. Number of MRFs')
     plt.xlabel('Resident Population')
     plt.ylabel('Number of MRFs')
-    plt.savefig('InfrastructureData/Graphs/ResidentPopvsMRF.pdf')
+    plt.savefig('InfrastructureData/Graphs/ResidentPopvsMRF.png')
     plt.show()
 
 def plotStateRecyclingPercentage():
@@ -147,7 +147,7 @@ def plotStateRecyclingPercentage():
     plt.xlabel('State')
     plt.ylabel('Recycling Percentage (%)')
     plt.gca().set_ybound(upper=100)
-    plt.savefig('InfrastructureData/Graphs/RecyclingPercentageByState.pdf')
+    plt.savefig('InfrastructureData/Graphs/RecyclingPercentageByState.png')
     plt.show()
 
 def plotEmissionsByState():
@@ -166,7 +166,7 @@ def plotEmissionsByState():
     plt.title('Emissions by State in 2020')
     plt.xlabel('State')
     plt.ylabel('Emissions (million metric tons)')
-    plt.savefig('InfrastructureData/Graphs/EmissionsByState2020.pdf')
+    plt.savefig('InfrastructureData/Graphs/EmissionsByState2020.png')
     plt.show()
 
 def plotEmissionsvsinfra():
@@ -186,7 +186,7 @@ def plotEmissionsvsinfra():
     plt.title('2020 Emissions vs. Number of Recycling Centers')
     plt.xlabel('Number of Recycling Centers')
     plt.ylabel('Emissions (million metric tons)')
-    plt.savefig('InfrastructureData/Graphs/EmissionsvsInfra.pdf')
+    plt.savefig('InfrastructureData/Graphs/EmissionsvsInfra.png')
     plt.show()
 
 def plotEmissionsvsMRF():
@@ -205,7 +205,7 @@ def plotEmissionsvsMRF():
     plt.title('2020 Emissions vs. Number of MRFs')
     plt.xlabel('Number of MRFs')
     plt.ylabel('Emissions (million metric tons)')
-    plt.savefig('InfrastructureData/Graphs/EmissionsvsMRF.pdf')
+    plt.savefig('InfrastructureData/Graphs/EmissionsvsMRF.png')
     plt.show()
 
 def plotYearlyEmissions():
@@ -222,7 +222,7 @@ def plotYearlyEmissions():
     plt.title('Total Yearly Emissions')
     plt.xlabel('Year')
     plt.ylabel('Emissions (million metric tons)')
-    plt.savefig('InfrastructureData/Graphs/TotalYearlyEmissions.pdf')
+    plt.savefig('InfrastructureData/Graphs/TotalYearlyEmissions.png')
     plt.show()
 
 def plotRecyclingPercentagevsInfra():
@@ -253,7 +253,7 @@ def plotRecyclingPercentagevsInfra():
     plt.title('Recycling Percentage vs. Number of Recycling Centers')
     plt.xlabel('Number of Recycling Centers')
     plt.ylabel('Recycling Percentage (%)')
-    plt.savefig('InfrastructureData/Graphs/RecyclingPercentagevsInfra.pdf')
+    plt.savefig('InfrastructureData/Graphs/RecyclingPercentagevsInfra.png')
     plt.show()
 
 def plotRecyclingPercentagevsMRF():
@@ -285,7 +285,7 @@ def plotRecyclingPercentagevsMRF():
     plt.title('Recycling Percentage vs. Number of MRFs')
     plt.xlabel('Number of MRFs')
     plt.ylabel('Recycling Percentage (%)')
-    plt.savefig('InfrastructureData/Graphs/RecyclingPercentagevsMRF.pdf')
+    plt.savefig('InfrastructureData/Graphs/RecyclingPercentagevsMRF.png')
     plt.show()
 
 def plotTextilesByState():
@@ -300,7 +300,7 @@ def plotTextilesByState():
     plt.title('Number of Textile Recycling Centers by State')
     plt.xlabel('State')
     plt.ylabel('# of Textile Recycling Centers')
-    plt.savefig('InfrastructureData/Graphs/TextileRecyclingCentersByState.pdf')
+    plt.savefig('InfrastructureData/Graphs/TextileRecyclingCentersByState.png')
     plt.show()
 
 def plotRegvsRecyclingRate():
@@ -319,7 +319,7 @@ def plotRegvsRecyclingRate():
     plt.xlabel('Regulation')
     plt.ylabel('Average Recycling Percentage (%)')
     plt.gca().set_ybound(upper=100)
-    plt.savefig('InfrastructureData/Graphs/AvgRecyclingPercentageByRegulation.pdf')
+    plt.savefig('InfrastructureData/Graphs/AvgRecyclingPercentageByRegulation.png')
     plt.show()
 
 def plotPetRatesbyState():
@@ -368,7 +368,7 @@ def plotPETsitesbyState():
     plt.title('Number of PET Bottle Recycling Sites by State')
     plt.xlabel('State')
     plt.ylabel('# of PET Bottle Recycling Sites')
-    plt.savefig('InfrastructureData/Graphs/PETBottleRecyclingSitesByState.pdf')
+    plt.savefig('InfrastructureData/Graphs/PETBottleRecyclingSitesByState.png')
     plt.show()
 
 
@@ -389,7 +389,7 @@ def plotPETvsRecyclingRate():
     plt.title('PET Bottle Recycling Rate vs. Number of Plastic Recycling Sites')
     plt.xlabel('Number of Plastic Recycling Sites')
     plt.ylabel('PET Bottle Recycling Rate (%)')
-    plt.savefig('InfrastructureData/Graphs/PETBottleRecyclingRatevsSites.pdf')
+    plt.savefig('InfrastructureData/Graphs/PETBottleRecyclingRatevsSites.png')
     plt.show()
 
 def plotTextilesvsRecyclingRate():
@@ -414,7 +414,7 @@ def plotTextilesvsRecyclingRate():
     plt.title('Textile Recycling Rate vs. Number of Textile Recycling Sites')
     plt.xlabel('Number of Textile Recycling Sites')
     plt.ylabel('Textile Recycling Rate (%)')
-    plt.savefig('InfrastructureData/Graphs/TextileRecyclingRatevsSites.pdf')
+    plt.savefig('InfrastructureData/Graphs/TextileRecyclingRatevsSites.png')
     plt.show()
 
 def plotAluminumRatesbyState():
@@ -430,7 +430,7 @@ def plotAluminumRatesbyState():
     plt.xlabel('State')
     plt.ylabel('Aluminum Recycling Rate (%)')
     plt.gca().set_ybound(upper=100)
-    plt.savefig('InfrastructureData/Graphs/AluminumRecyclingRatesbyState.pdf')
+    plt.savefig('InfrastructureData/Graphs/AluminumRecyclingRatesbyState.png')
     plt.show()
 
 def plotAluminumRatesvsMRFS():
@@ -454,7 +454,7 @@ def plotAluminumRatesvsMRFS():
     plt.title('Aluminum Recycling Rate vs. Number of MRFs')
     plt.xlabel('Number of MRFs')
     plt.ylabel('Aluminum Recycling Rate (%)')
-    plt.savefig('InfrastructureData/Graphs/AluminumRecyclingRatevsMRFs.pdf')
+    plt.savefig('InfrastructureData/Graphs/AluminumRecyclingRatevsMRFs.png')
     plt.show()
 
 def plotGlassSitesbyState():
@@ -468,7 +468,7 @@ def plotGlassSitesbyState():
     plt.title('Number of Glass Recycling Sites by State')
     plt.xlabel('State')
     plt.ylabel('# of Glass Recycling Sites')
-    plt.savefig('InfrastructureData/Graphs/GlassRecyclingSitesByState.pdf')
+    plt.savefig('InfrastructureData/Graphs/GlassRecyclingSitesByState.png')
     plt.show()
 
 def plotGlassRatesbyState():
@@ -483,7 +483,7 @@ def plotGlassRatesbyState():
     plt.xlabel('State')
     plt.ylabel('Glass Recycling Rate (%)')
     plt.gca().set_ybound(upper=100)
-    plt.savefig('InfrastructureData/Graphs/GlassRecyclingRatesbyState.pdf')
+    plt.savefig('InfrastructureData/Graphs/GlassRecyclingRatesbyState.png')
     plt.show()
     
 def plotGlassvsRecyclingRate():
@@ -508,7 +508,7 @@ def plotGlassvsRecyclingRate():
     plt.title('Glass Recycling Rate vs. Number of Glass Recycling Sites')
     plt.xlabel('Number of Glass Recycling Sites')
     plt.ylabel('Glass Recycling Rate (%)')
-    plt.savefig('InfrastructureData/Graphs/GlassRecyclingRatevsSites.pdf')
+    plt.savefig('InfrastructureData/Graphs/GlassRecyclingRatevsSites.png')
     plt.show()
     
 def plotPaperSitesbyState():
@@ -523,7 +523,7 @@ def plotPaperSitesbyState():
     plt.title('Number of Paper Recycling Sites by State')
     plt.xlabel('State')
     plt.ylabel('# of Paper Recycling Sites')
-    plt.savefig('InfrastructureData/Graphs/PaperRecyclingSitesByState.pdf')
+    plt.savefig('InfrastructureData/Graphs/PaperRecyclingSitesByState.png')
     plt.show()
 
 def plotPaperRatesbyState():
@@ -538,7 +538,7 @@ def plotPaperRatesbyState():
     plt.xlabel('State')
     plt.ylabel('Paper Recycling Rate (%)')
     plt.gca().set_ybound(upper=100)
-    plt.savefig('InfrastructureData/Graphs/PaperRecyclingRatesbyState.pdf')
+    plt.savefig('InfrastructureData/Graphs/PaperRecyclingRatesbyState.png')
     plt.show()
 
 def plotPapervsRecyclingRate():
@@ -559,7 +559,7 @@ def plotPapervsRecyclingRate():
     plt.title('Paper Recycling Rate vs. Number of Paper Recycling Sites')
     plt.xlabel('Number of Paper Recycling Sites')
     plt.ylabel('Paper Recycling Rate (%)')
-    plt.savefig('InfrastructureData/Graphs/PaperRecyclingRatevsSites.pdf')
+    plt.savefig('InfrastructureData/Graphs/PaperRecyclingRatevsSites.png')
     plt.show()
 
 def plotTippingFeesByState():
@@ -573,7 +573,7 @@ def plotTippingFeesByState():
     plt.title('Landfill Tipping Fees by State')
     plt.xlabel('State')
     plt.ylabel('Average Tipping Fee (USD per ton)')
-    plt.savefig('InfrastructureData/Graphs/LandfillTippingFeesByState.pdf')
+    plt.savefig('InfrastructureData/Graphs/LandfillTippingFeesByState.png')
     plt.show()
 
 def plotRegvsTippingFees():
@@ -589,7 +589,7 @@ def plotRegvsTippingFees():
     plt.xlabel('Regulation')
     plt.ylabel('Average Tipping Fee (USD per ton)')
     plt.gca().set_ybound(upper=100)
-    plt.savefig('InfrastructureData/Graphs/AvgTippingFeesByRegulation.pdf')
+    plt.savefig('InfrastructureData/Graphs/AvgTippingFeesByRegulation.png')
     plt.show()
     
 def plotTippingFeesvsRecyclingRate():
@@ -607,7 +607,7 @@ def plotTippingFeesvsRecyclingRate():
     plt.title('Recycling Rate vs. Landfill Tipping Fees')
     plt.xlabel('Landfill Tipping Fees (USD per ton)')
     plt.ylabel('Recycling Rate (%)')
-    plt.savefig('InfrastructureData/Graphs/RecyclingRatevsTippingFees.pdf')
+    plt.savefig('InfrastructureData/Graphs/RecyclingRatevsTippingFees.png')
     plt.show()
 
 def plotBottleBillsvsTippingFee():
@@ -621,7 +621,7 @@ def plotBottleBillsvsTippingFee():
     plt.title('Tipping Fees vs. Presence of Bottle Bills by State')
     plt.xlabel('Presence of Bottle Bill')
     plt.ylabel('Average Tipping Fee (USD per ton)')
-    plt.savefig('InfrastructureData/Graphs/TippingFeesvsBottleBills.pdf')
+    plt.savefig('InfrastructureData/Graphs/TippingFeesvsBottleBills.png')
     plt.show()
 
 def plotWoodSitesbyState():
@@ -635,7 +635,7 @@ def plotWoodSitesbyState():
     plt.title('Number of Wood Recycling Sites by State')
     plt.xlabel('State')
     plt.ylabel('# of Wood Recycling Sites')
-    plt.savefig('InfrastructureData/Graphs/WoodRecyclingSitesByState.pdf')
+    plt.savefig('InfrastructureData/Graphs/WoodRecyclingSitesByState.png')
     plt.show()
 
 
@@ -659,7 +659,7 @@ def plotWoodvsRecyclingRate():
     plt.title('Wood Recycling Rate vs. Number of Wood Recycling Sites')
     plt.xlabel('Number of Wood Recycling Sites')
     plt.ylabel('Wood Recycling Rate (%)')
-    plt.savefig('InfrastructureData/Graphs/WoodRecyclingRatevsSites.pdf')
+    plt.savefig('InfrastructureData/Graphs/WoodRecyclingRatevsSites.png')
     plt.show()
 
 def plotElectronicsSitesbyState():
@@ -673,7 +673,7 @@ def plotElectronicsSitesbyState():
     plt.title('Number of Electronics Recycling Sites by State')
     plt.xlabel('State')
     plt.ylabel('# of Electronics Recycling Sites')
-    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingSitesByState.pdf')
+    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingSitesByState.png')
     plt.show()
 
 def plotElectronicsvsRecyclingRate():
@@ -694,7 +694,7 @@ def plotElectronicsvsRecyclingRate():
     plt.title('Electronics Recycling Rate vs. Number of Electronics Recycling Sites')
     plt.xlabel('Number of Electronics Recycling Sites')
     plt.ylabel('Electronics Recycling Rate (%)')
-    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingRatevsSites.pdf')
+    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingRatevsSites.png')
     plt.show()
 
 def plotTextilevsMRFs():
@@ -717,7 +717,7 @@ def plotTextilevsMRFs():
     plt.title('Textile Recycling Sites vs. Number of MRFs')
     plt.xlabel('Number of Textile Recycling Sites')
     plt.ylabel('Number of MRFs')
-    plt.savefig('InfrastructureData/Graphs/TextileRecyclingSitesvsMRFs.pdf')
+    plt.savefig('InfrastructureData/Graphs/TextileRecyclingSitesvsMRFs.png')
     plt.show()
 
 def plotPlasticvsMRF():
@@ -740,7 +740,7 @@ def plotPlasticvsMRF():
     plt.title('Plastic Recycling Sites vs. Number of MRFs')
     plt.xlabel('Number of Plastic Recycling Sites')
     plt.ylabel('Number of MRFs')
-    plt.savefig('InfrastructureData/Graphs/PlasticRecyclingSitesvsMRFs.pdf')
+    plt.savefig('InfrastructureData/Graphs/PlasticRecyclingSitesvsMRFs.png')
     plt.show()
 
 def plotGlassvsMRFs():
@@ -763,7 +763,7 @@ def plotGlassvsMRFs():
     plt.title('Glass Recycling Sites vs. Number of MRFs')
     plt.xlabel('Number of Glass Recycling Sites')
     plt.ylabel('Number of MRFs')
-    plt.savefig('InfrastructureData/Graphs/GlassRecyclingSitesvsMRFs.pdf')
+    plt.savefig('InfrastructureData/Graphs/GlassRecyclingSitesvsMRFs.png')
     plt.show()
 
 def plotPapervsMRFs():
@@ -786,7 +786,7 @@ def plotPapervsMRFs():
     plt.title('Paper Recycling Sites vs. Number of MRFs')
     plt.xlabel('Number of Paper Recycling Sites')
     plt.ylabel('Number of MRFs')
-    plt.savefig('InfrastructureData/Graphs/PaperRecyclingSitesvsMRFs.pdf')
+    plt.savefig('InfrastructureData/Graphs/PaperRecyclingSitesvsMRFs.png')
     plt.show()
 
 def plotWoodvsMRFs():
@@ -809,7 +809,7 @@ def plotWoodvsMRFs():
     plt.title('Wood Recycling Sites vs. Number of MRFs')
     plt.xlabel('Number of Wood Recycling Sites')
     plt.ylabel('Number of MRFs')
-    plt.savefig('InfrastructureData/Graphs/WoodRecyclingSitesvsMRFs.pdf')
+    plt.savefig('InfrastructureData/Graphs/WoodRecyclingSitesvsMRFs.png')
     plt.show()
 
 def plotElectronicsvsMRF():
@@ -830,48 +830,49 @@ def plotElectronicsvsMRF():
     plt.title('Electronics Recycling Sites vs. Number of MRFs')
     plt.xlabel('Number of Electronics Recycling Sites')
     plt.ylabel('Number of MRFs')
-    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingSitesvsMRFs.pdf')
+    plt.savefig('InfrastructureData/Graphs/ElectronicsRecyclingSitesvsMRFs.png')
     plt.show()
 
-# plotMRFbyState()
-# plotMostCommonFacilities()
-# plotDensityvsInfra()
-# plotPopvsInfra()
-# plotDensityvsMRF()
-# plotPopvsMRF()
-# plotStateRecyclingPercentage()
-# plotEmissionsByState()
-# plotEmissionsvsinfra()
-# plotEmissionsvsMRF()
-# plotYearlyEmissions()
-# plotRecyclingPercentagevsInfra()
-# plotRecyclingPercentagevsMRF()
-# plotTextilesByState()
-# plotRegvsRecyclingRate()
-# plotPetRatesbyState()
-# plotTextileRatesbyState()
-# plotPETsitesbyState()
-# plotPETvsRecyclingRate()
-# plotTextilesvsRecyclingRate()
-# plotAluminumRatesbyState()
-# plotAluminumRatesvsMRFS()
-# plotGlassSitesbyState()
-# plotGlassRatesbyState()
-# plotGlassvsRecyclingRate()
-# plotPaperSitesbyState()
-# plotPaperRatesbyState()
-# plotPapervsRecyclingRate()
-# plotTippingFeesByState()
-# plotRegvsTippingFees()
-# plotTippingFeesvsRecyclingRate()
-# plotBottleBillsvsTippingFee()
-# plotWoodSitesbyState()
-# plotWoodvsRecyclingRate()
-# plotTextilevsMRFs()
-# plotPlasticvsMRF()
-# plotGlassvsMRFs()
-# plotPapervsMRFs()
-# plotWoodvsMRFs()
-# plotElectronicsSitesbyState()
-# plotElectronicsvsRecyclingRate()
+
+plotMRFbyState()
+plotMostCommonFacilities()
+plotDensityvsInfra()
+plotPopvsInfra()
+plotDensityvsMRF()
+plotPopvsMRF()
+plotStateRecyclingPercentage()
+plotEmissionsByState()
+plotEmissionsvsinfra()
+plotEmissionsvsMRF()
+plotYearlyEmissions()
+plotRecyclingPercentagevsInfra()
+plotRecyclingPercentagevsMRF()
+plotTextilesByState()
+plotRegvsRecyclingRate()
+plotPetRatesbyState()
+plotTextileRatesbyState()
+plotPETsitesbyState()
+plotPETvsRecyclingRate()
+plotTextilesvsRecyclingRate()
+plotAluminumRatesbyState()
+plotAluminumRatesvsMRFS()
+plotGlassSitesbyState()
+plotGlassRatesbyState()
+plotGlassvsRecyclingRate()
+plotPaperSitesbyState()
+plotPaperRatesbyState()
+plotPapervsRecyclingRate()
+plotTippingFeesByState()
+plotRegvsTippingFees()
+plotTippingFeesvsRecyclingRate()
+plotBottleBillsvsTippingFee()
+plotWoodSitesbyState()
+plotWoodvsRecyclingRate()
+plotTextilevsMRFs()
+plotPlasticvsMRF()
+plotGlassvsMRFs()
+plotPapervsMRFs()
+plotWoodvsMRFs()
+plotElectronicsSitesbyState()
+plotElectronicsvsRecyclingRate()
 plotElectronicsvsMRF()
